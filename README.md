@@ -1,6 +1,6 @@
 # HotelOnTouch
-## GSSoC 2021
-This is the project repository for HotelOnTouch Project for the upcoming GSSoc 2021
+### applied for GSSoC 2021
+This is the project repository for HotelOnTouch Project and we are applying to GSSoc 2021 for open source support this year
 
 ## Project Description
 
@@ -27,3 +27,40 @@ This project aims to give a hands on experience to the beginners a hand on exper
 # Main motto
 
 To make a completely open sourced in house hotel management system
+
+## Getting Help
+
+Got a problem? Ask your mentors, ask other students, or ask the community.
+
+Our community is large, and there are people who are
+not mentors in the contest. Mentors are listed. Everyone else
+you talk with may be a non-mentor.
+
+Students should keep in mind that some people are non-mentors,
+and cannot see the contest progress, dates, or information
+about students. When communicating widely, be sure to;
+
+ - Introduce yourself, the first time,
+ - Talk about the task as if you want to do it yourself, not
+   because of the contest,
+ - Defend your technical decisions without using the contest as
+   a defense,
+ - Non-mentors may give good guidance on technical decisions,
+   but bad guidance on how they think a task is judged. Always
+   consult with your mentors as well.
+   
+## Community etiquette
+Everyone in the community has to be polite and respectful, and
+consider everyone else a member of a team and not a competitor.
+
+One should be considerate to everyone else's time. We would like
+to have quality discussions, and not answer questions that are
+already documented, or available on stackoverflow. This doesn't
+mean you can't ask questions, but a clueless user and a lazy
+developer are two different things.
+
+Tell things as you see them. Be polite, but don't sugar coat it.
+You don't have to apologize everytime you make a mistake; but
+avoid repeating it again ;-)
+
+### We are ready to hear from you for any suggestions will help us, Please feel free to open a issue
