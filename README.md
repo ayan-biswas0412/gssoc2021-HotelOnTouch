@@ -32,8 +32,7 @@ To make a completely open sourced in house hotel management system
 
 Got a problem? Ask your mentors, ask other students, or ask the community.
 
-Our community is large, and there are people who are
-not mentors in the contest. Mentors are listed. Everyone else
+Our community is not so large so we value each and every persons and want to enlarge the community. Everyone else
 you talk with may be a non-mentor.
 
 Students should keep in mind that some people are non-mentors,
@@ -50,6 +49,7 @@ about students. When communicating widely, be sure to;
    consult with your mentors as well.
    
 ## Community etiquette
+
 Everyone in the community has to be polite and respectful, and
 consider everyone else a member of a team and not a competitor.
 
