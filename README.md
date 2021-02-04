@@ -13,7 +13,7 @@ This project aims to give a hands on experience to the beginners a hand on exper
 1. Customer Facing Web App
 2. Hotel Admin Facing Web App (Full Administrator access)
 3. Laundry End Web App
-4. Restraunt End Web App (Same for Bar and Equivalent)
+4. Restraunt End Web App (Same for Bar and Equivalent services)
 5. On Demand service booking Web App (vary hotel to hotel basis)
 
 ## Tech Stack
