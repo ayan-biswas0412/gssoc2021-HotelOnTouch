@@ -24,7 +24,7 @@ This project aims to give a hands on experience to the beginners a hand on exper
 4. Javascript Tests using automated scripts
 5. Deployment to Cloud using Github Actions (Advance Stage work)
 
-# Main motto
+## Main motto
 
 To make a completely open sourced in house hotel management system
 
