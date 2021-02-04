@@ -1,5 +1,5 @@
 # HotelOnTouch
-### applied for GSSoC 2021
+### applied for GSSoC 2021 ! Awaiting for official approval
 This is the project repository for HotelOnTouch Project and we are applying to GSSoc 2021 for open source support this year
 
 ## Project Description
