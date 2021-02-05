@@ -59,7 +59,14 @@ about students. When communicating widely, be sure to;
  - Non-mentors may give good guidance on technical decisions,
    but bad guidance on how they think a task is judged. Always
    consult with your mentors as well.
-   
+
+## Useful Resources
+
+- [React Docs](https://reactjs.org/docs/getting-started.html)
+- [Node.js Docs](https://nodejs.org/api/)
+- [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
+
+
 ## Community etiquette
 
 Everyone in the community has to be polite and respectful, and
@@ -76,3 +83,47 @@ You don't have to apologize everytime you make a mistake; but
 avoid repeating it again ;-)
 
 ### We are ready to hear from you for any suggestions will help us, Please feel free to open a issue
+
+## COVID-19<sup>Stay Home, Stay Safe!</sup>
+
+I hope you are all staying safe at your home and enjoying the contribution for your awesome open source projects.
+
+```javascript
+/**
+ * 
+ * Let's fight for Corona together!
+ */
+function stayAtHome() {
+  eat();
+  sleep();
+  code();
+  repeat();
+}
+
+while(_.isAlive(new Virus('COVID-19'))) {
+  // Stay home, Stay safe
+  stayAtHome();
+}
+
+```
+
+### :wave: [DO THE FIVE](https://www.mohfw.gov.in/): Help stop coronavirus
+
+1. **HANDS**: Wash them often
+2. **ELBOW**: Cough into it
+3. **FACE**: Don't touch it
+4. **SPACE**: Keep safe distance
+5. **HOME**: Stay if you can
+
+### :x: Avoid Handshakes :handshake: 
+### :heavy_check_mark: Do Namastey :pray:
+
+<br>
+
+<sup>**PS: I know it's off-topic but **Yes**, COVID-19 everyone's talking about. Please stay safe at your home and enjoy contributing to your projects.**</sup>
+
+
+_Your friend,_ <br>
+_**[Ayan](https://www.ayanbiswas.me) :)**_
+
+---
