@@ -1,4 +1,16 @@
 # HotelOnTouch
+
+<div align="centre">
+ 
+[![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![GitHub forks](https://img.shields.io/github/forks/ayan-biswas0412/gssoc2021-HotelOnTouch?label=Fork&style=social)
+![GitHub Pull Request](https://img.shields.io/github/issues-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
+![GitHub Issues](https://img.shields.io/github/issues-closed-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
+![GitHub Issues](https://img.shields.io/bitbucket/pr-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
+
+</div>
+
 ### applied for GSSoC 2021 ! Awaiting for official approval
 This is the project repository for HotelOnTouch Project and we are applying to GSSoc 2021 for open source support this year
 
