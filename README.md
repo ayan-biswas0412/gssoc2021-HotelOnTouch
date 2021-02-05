@@ -126,4 +126,23 @@ while(_.isAlive(new Virus('COVID-19'))) {
 _Your friend,_ <br>
 _**[Ayan](https://www.ayanbiswas.me) :)**_
 
----
+
+```javascript
+/**
+ *
+ * {thisRepo.url} = https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/
+ *
+ */
+if (thisRepo.isAwesome()) {
+  thisRepo.fork(); // waiting for your awesome contributions :)
+  thisRepo.star(); // thanks in advance :p
+  thisRepo.watch(bug => {
+    if (!doesIssueExists(bug)) {
+      createNewIssue(bug); // wow, that's a nice catch
+    } else {
+      checkIssueTracker(bug); // comment there
+    }
+  });
+  thisRepo.share(); // sharing is caring :D
+}
+```
