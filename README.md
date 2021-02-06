@@ -22,7 +22,7 @@ This project aims to give a hands on experience to the beginners a hand on exper
 
 ## Project Modules
 
-1. Customer Facing Web App
+1. Customer Facing Mobile App (Android/IOS - development using React Native)
 2. Hotel Admin Facing Web App (Full Administrator access)
 3. Laundry End Web App
 4. Restraunt End Web App (Same for Bar and Equivalent services)
