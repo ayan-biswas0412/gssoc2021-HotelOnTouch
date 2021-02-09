@@ -1,7 +1,7 @@
 # HotelOnTouch
 
 <div align="centre">
- 
+
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 ![GitHub forks](https://img.shields.io/github/forks/ayan-biswas0412/gssoc2021-HotelOnTouch?label=Fork&style=social)
@@ -11,8 +11,13 @@
 
 </div>
 
-### applied for GSSoC 2021 ! Awaiting for official approval
-This is the project repository for HotelOnTouch Project and we are applying to GSSoc 2021 for open source support this year
+### We are now part of GSSoC 2021 ! 
+We got accepted for the GSSoc 2021 and activelty looking for new mentors,please feel free to ask questions in the discussion section of this repository and if you want to be our mentor please mention in the discussion.
+
+[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/makes-people-smile.svg)](https://forthebadge.com)
 
 ## Project Description
 
@@ -35,6 +40,24 @@ This project aims to give a hands on experience to the beginners a hand on exper
 3. React Bootstrap Library for rapid frontend development
 4. Javascript Tests using automated scripts
 5. Deployment to Cloud using Github Actions (Advance Stage work)
+
+## Learning Resources 🧰
+
+- [Git Documentation](https://git-scm.com/docs)
+- [GitHub Guides](https://guides.github.com/)
+- [How to think in react](https://www.youtube.com/watch?v=YJPSR9dEQV8&t=17s)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
+- [React Routing Video](https://www.youtube.com/watch?v=Law7wfdg_ls&t=1778s)
+- [Top 5 Skills you must read before working with react](https://www.geeksforgeeks.org/top-5-skills-you-must-know-before-you-learn-reactjs/)
+
+
+-   [Complete Intro to React, v5](https://frontendmasters.com/courses/complete-react-v5/)
+    
+-   [Intermediate React](https://frontendmasters.com/courses/intermediate-react/)
+    
+-   [Introduction to MongoDB](https://frontendmasters.com/courses/mongodb/)
+    
+- [API Design in Node.js (using Express & Mongo)](https://frontendmasters.com/courses/api-design-nodejs/using-the-mongo-with-node/)
 
 ## Main motto
 
