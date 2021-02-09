@@ -2,7 +2,7 @@
 name: "⛵️ Participant Onboarding"
 about: We value your time and your commitment to this project
 title: ""
-labels: "🌟 mentor-onboarding"
+labels: "🌟 participant-onboarding"
 assignees: ""
 ---
 
