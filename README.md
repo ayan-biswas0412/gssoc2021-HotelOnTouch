@@ -28,14 +28,14 @@ This project aims to give a hands on experience to the beginners a hand on exper
 
 ## Project Modules
 
-1. [Customer Facing Mobile App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/customerfrontend) (Android/IOS - development using React Native)
-2. [Hotel Admin Facing Web App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-admin-frontend) (Full Administrator access)
+1. [Main Website](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotelontouch)(Main React Website)[![Netlify Status](https://api.netlify.com/api/v1/badges/367309b4-d08a-47dc-a775-62e6f548d222/deploy-status)](https://app.netlify.com/sites/hotelontouch/deploys)
+2. [Customer Facing Mobile App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/customerfrontend) (Android/IOS - development using React Native)
+3. [Hotel Admin Facing Web App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-admin-frontend) (Full Administrator access)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bf151b70-a24d-442a-8353-ac90d90e6ae2/deploy-status)](https://app.netlify.com/sites/admin-hotelontouch/deploys)
-3. Laundry End Web App
 4. [Restraunt End Web App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-restraunt-frontend) (Same for Bar and Equivalent services)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a7b909f2-4f34-4de9-b611-00eebff4a756/deploy-status)](https://app.netlify.com/sites/restraunt-hotelontouch/deploys)
-
-5. On Demand service booking Web App (vary hotel to hotel basis)
+5. Laundry End Web App
+6. On Demand service booking Web App (vary hotel to hotel basis)
 
 ## Tech Stack
 
@@ -49,7 +49,7 @@ This project aims to give a hands on experience to the beginners a hand on exper
 
 **This project is under active development**
 
-Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT) thoroughly.
+Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT) thoroughly.If you are visiting this repo first time and you want to contribuite to this repo as a participant or a mentor please complete the [Onboarding Process](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributor-Onboarding)
 
 ## Learning Resources 🧰
 
