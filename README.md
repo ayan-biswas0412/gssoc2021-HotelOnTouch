@@ -4,10 +4,12 @@
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-![GitHub forks](https://img.shields.io/github/forks/ayan-biswas0412/gssoc2021-HotelOnTouch?label=Fork&style=social)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch)
 ![GitHub Pull Request](https://img.shields.io/github/issues-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
 ![GitHub Issues](https://img.shields.io/github/issues-closed-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
 ![GitHub Issues](https://img.shields.io/bitbucket/pr-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
+![GitHub forks](https://img.shields.io/github/forks/ayan-biswas0412/gssoc2021-HotelOnTouch?label=Fork&style=social)
+[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/stargazers)
 
 </div>
 
