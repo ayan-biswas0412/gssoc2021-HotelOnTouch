@@ -9,7 +9,6 @@
 ![GitHub Issues](https://img.shields.io/github/issues-closed-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
 ![GitHub Issues](https://img.shields.io/bitbucket/pr-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
 ![GitHub forks](https://img.shields.io/github/forks/ayan-biswas0412/gssoc2021-HotelOnTouch?label=Fork&style=social)
-[![GitHub stars](https://img.shields.io/github/stars/Naereen/StrapDown.js.svg?style=social&label=Star&maxAge=2592000)](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/stargazers)
 
 </div>
 
