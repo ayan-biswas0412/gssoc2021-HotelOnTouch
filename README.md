@@ -4,10 +4,11 @@
 
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-![GitHub forks](https://img.shields.io/github/forks/ayan-biswas0412/gssoc2021-HotelOnTouch?label=Fork&style=social)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch)
 ![GitHub Pull Request](https://img.shields.io/github/issues-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
 ![GitHub Issues](https://img.shields.io/github/issues-closed-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
 ![GitHub Issues](https://img.shields.io/bitbucket/pr-raw/ayan-biswas0412/gssoc2021-HotelOnTouch)
+![GitHub forks](https://img.shields.io/github/forks/ayan-biswas0412/gssoc2021-HotelOnTouch?label=Fork&style=social)
 
 </div>
 
@@ -27,10 +28,10 @@ This project aims to give a hands on experience to the beginners a hand on exper
 
 ## Project Modules
 
-1. Customer Facing Mobile App (Android/IOS - development using React Native)
-2. Hotel Admin Facing Web App (Full Administrator access)
+1. [Customer Facing Mobile App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/customerfrontend) (Android/IOS - development using React Native)
+2. [Hotel Admin Facing Web App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-admin-frontend) (Full Administrator access)
 3. Laundry End Web App
-4. Restraunt End Web App (Same for Bar and Equivalent services)
+4. [Restraunt End Web App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-restraunt-frontend) (Same for Bar and Equivalent services)
 5. On Demand service booking Web App (vary hotel to hotel basis)
 
 ## Tech Stack
@@ -40,6 +41,12 @@ This project aims to give a hands on experience to the beginners a hand on exper
 3. React Bootstrap Library for rapid frontend development
 4. Javascript Tests using automated scripts
 5. Deployment to Cloud using Github Actions (Advance Stage work)
+
+## Contributing
+
+**This project is under active development**
+
+Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT) thoroughly.
 
 ## Learning Resources 🧰
 
