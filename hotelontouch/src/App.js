@@ -1,25 +1,18 @@
-import logo from './logo.svg';
+import React from 'react';
+import { MemoryRouter, Switch, Route } from 'react-router-dom';
+
+import { HomePage } from './pages';
+import { NavbarComponent } from './components';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This will be used for HotelOnTouch Landing Page
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <MemoryRouter>
+      <NavbarComponent/>
+      <Switch>
+        <Route path="/" component={HomePage}></Route>
+      </Switch>
+  </MemoryRouter>
+);
 
 export default App;
