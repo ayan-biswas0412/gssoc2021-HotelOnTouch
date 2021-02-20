@@ -49,7 +49,17 @@ This project aims to give a hands on experience to the beginners a hand on exper
 
 **This project is under active development**
 
-Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT) thoroughly.If you are visiting this repo first time and you want to contribuite to this repo as a participant or a mentor please complete the [Onboarding Process](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributor-Onboarding)
+Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT.md) thoroughly.If you are visiting this repo first time and you want to contribuite to this repo as a participant or a mentor please complete the [Onboarding Process](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributor-Onboarding)
+
+## Main motto
+
+To make a completely open sourced in house hotel management system
+
+## Useful Resources
+
+- [React Docs](https://reactjs.org/docs/getting-started.html)
+- [Node.js Docs](https://nodejs.org/api/)
+- [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
 
 ## Learning Resources 🧰
 
@@ -68,10 +78,6 @@ Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gss
 -   [Introduction to MongoDB](https://frontendmasters.com/courses/mongodb/)
     
 - [API Design in Node.js (using Express & Mongo)](https://frontendmasters.com/courses/api-design-nodejs/using-the-mongo-with-node/)
-
-## Main motto
-
-To make a completely open sourced in house hotel management system
 
 ## Getting Help
 
@@ -93,13 +99,6 @@ about students. When communicating widely, be sure to;
    but bad guidance on how they think a task is judged. Always
    consult with your mentors as well.
 
-## Useful Resources
-
-- [React Docs](https://reactjs.org/docs/getting-started.html)
-- [Node.js Docs](https://nodejs.org/api/)
-- [Git and GitHub](https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide)
-
-
 ## Community etiquette
 
 Everyone in the community has to be polite and respectful, and
@@ -116,6 +115,10 @@ You don't have to apologize everytime you make a mistake; but
 avoid repeating it again ;-)
 
 ### We are ready to hear from you for any suggestions will help us, Please feel free to open a issue
+
+## License
+
+HotelOnTouch is licensed under the GNU General Public License v3.0. Learn more about it in the [LICENSE](LICENSE) file.
 
 ## COVID-19<sup>Stay Home, Stay Safe!</sup>
 
@@ -161,11 +164,9 @@ _**[Ayan](https://www.ayanbiswas.me) :)**_
 
 
 ```javascript
-/**
- *
- * {thisRepo.url} = https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/
- *
- */
+
+{thisRepo.url} = 'https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/';
+
 if (thisRepo.isAwesome()) {
   thisRepo.fork(); // waiting for your awesome contributions :)
   thisRepo.star(); // thanks in advance :p
