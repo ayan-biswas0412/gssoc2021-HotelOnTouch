@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
-const Wrapper = (props) => {
+export const Wrapper = (props) => {
   return (
     <Container fluid>
       <Row>
@@ -14,5 +14,3 @@ const Wrapper = (props) => {
     </Container>
   );
 };
-
-export default Wrapper;
