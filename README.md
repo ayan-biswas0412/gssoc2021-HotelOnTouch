@@ -49,7 +49,9 @@ This project aims to give a hands on experience to the beginners a hand on exper
 
 **This project is under active development**
 
-Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT.md) thoroughly.If you are visiting this repo first time and you want to contribuite to this repo as a participant or a mentor please complete the [Onboarding Process](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributor-Onboarding)
+> Please have a look at our [Wiki](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki) to understand the contributing guidelines properly and to know the project better.
+
+Also Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT.md) thoroughly.If you are visiting this repo first time and you want to contribuite to this repo as a participant or a mentor please complete the [Onboarding Process](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributor-Onboarding)
 
 ## Main motto
 
@@ -78,43 +80,6 @@ To make a completely open sourced in house hotel management system
 -   [Introduction to MongoDB](https://frontendmasters.com/courses/mongodb/)
     
 - [API Design in Node.js (using Express & Mongo)](https://frontendmasters.com/courses/api-design-nodejs/using-the-mongo-with-node/)
-
-## Getting Help
-
-Got a problem? Ask your mentors, ask other students, or ask the community.
-
-Our community is not so large so we value each and every persons and want to enlarge the community. Everyone else
-you talk with may be a non-mentor.
-
-Students should keep in mind that some people are non-mentors,
-and cannot see the contest progress, dates, or information
-about students. When communicating widely, be sure to;
-
- - Introduce yourself, the first time,
- - Talk about the task as if you want to do it yourself, not
-   because of the contest,
- - Defend your technical decisions without using the contest as
-   a defense,
- - Non-mentors may give good guidance on technical decisions,
-   but bad guidance on how they think a task is judged. Always
-   consult with your mentors as well.
-
-## Community etiquette
-
-Everyone in the community has to be polite and respectful, and
-consider everyone else a member of a team and not a competitor.
-
-One should be considerate to everyone else's time. We would like
-to have quality discussions, and not answer questions that are
-already documented, or available on stackoverflow. This doesn't
-mean you can't ask questions, but a clueless user and a lazy
-developer are two different things.
-
-Tell things as you see them. Be polite, but don't sugar coat it.
-You don't have to apologize everytime you make a mistake; but
-avoid repeating it again ;-)
-
-### We are ready to hear from you for any suggestions will help us, Please feel free to open a issue
 
 ## License
 
