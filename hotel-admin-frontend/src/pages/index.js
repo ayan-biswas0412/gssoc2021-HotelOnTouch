@@ -1,2 +1,1 @@
-export * from './CreatePage';
-export * from './HomePage';
+export { default as HomePage } from './HomePage';

@@ -1,6 +1,8 @@
 import React from 'react';
-import { Wrapper } from '../components/index';
+import { Wrapper } from '../components';
 
-export const HomePage = () => {
+function HomePage(){
   return <Wrapper text='HomePage' />;
 };
+
+export default HomePage ;
