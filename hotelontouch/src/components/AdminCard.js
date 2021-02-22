@@ -1,5 +1,6 @@
 import React from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
+import './AdminCard.css';
 
 const AdminCard = ({
   projectAdminName = 'Ayan Biswas',
@@ -7,28 +8,51 @@ const AdminCard = ({
   webSite = 'https://ayanbiswas.in',
 }) => {
   return (
-    <Card style={{ width: '20rem', borderRadius: '0.8em' }}>
-      <Card.Img
-        variant='top'
-        src={`https://avatars.githubusercontent.com/${GitHubUserName}`}
-        style={{ borderTopRightRadius: '0.8em', borderTopLeftRadius: '0.8em' }}
-      />
-      <Card.Body>
-        <Card.Title>{projectAdminName}</Card.Title>
-        <Card.Subtitle className='mb-2 text-muted'>Project Admin</Card.Subtitle>
-        <Card.Text>{`GitHub UserName : ${GitHubUserName}`}</Card.Text>
-        <Button variant='primary'>
-          <a
-            href={webSite}
-            rel='noopener noreferrer'
-            target='_blank'
-            style={{ textDecoration: 'none', color: 'inherit' }}
-          >
-            Web Site
-          </a>
-        </Button>
-      </Card.Body>
-    </Card>
+    <div className='CardContainer'>
+      <Card
+        style={{
+          width: '20rem',
+        }}
+        className='Card'
+        border='primary'
+      >
+        <Card.Img
+          variant='top'
+          src={`https://avatars.githubusercontent.com/${GitHubUserName}`}
+          className='Image'
+        />
+        <Card.Body>
+          <Card.Title
+            style={{ textAlign: 'center' }}
+          >{`Project Admin : ${projectAdminName}`}</Card.Title>
+          <div className='social'>
+            <a
+              href={`https://github.com/${GitHubUserName}`}
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <img
+                src='https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png'
+                alt='GitHub Profile'
+                height='30'
+                width='30'
+              />
+              {GitHubUserName}
+            </a>
+          </div>
+          <div className='social'>
+            <a href={webSite} rel='noopener noreferrer' target='_blank'>
+              <img
+                src='https://www.saganetwork.net/img/domainikon.png'
+                alt='WebSite Logo'
+                height='30'
+                width='30'
+              />
+            </a>
+          </div>
+        </Card.Body>
+      </Card>
+    </div>
   );
 };
 

@@ -1,0 +1,66 @@
+.Card {
+  border-radius: 0.8em !important;
+  opacity: 1;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  padding: 0.4%;
+}
+
+.CardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.social {
+  text-align: center;
+  margin-bottom: 0.8em;
+}
+
+.Image {
+  border-radius: 0.8em !important;
+}
