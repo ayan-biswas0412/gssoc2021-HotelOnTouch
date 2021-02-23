@@ -33,8 +33,7 @@ height:100vh;
 `
 function Footer(){
     return(
-       
-<Body>
+      <Body>
             <Wave fill='#375ABF'
         paused={false}
         options={{
@@ -43,37 +42,32 @@ function Footer(){
           speed: 0.5,
           points: 3
         }}
-        
         style={{position:"relative",
         bottom:"-64.5%",zIndex:1}}/>
         <Container>
-        
-          <About>
+        <About>
                 <h4>About us</h4>
                 <p>Lorem ipsum dolor sit amet, di dunt ut labore et dolore magna aliqua. 
                      officia deserunt Excepteur.
                 </p>
                 <div className="icons">
                    <a href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch" style={{marginRight:'5px'}}><FontAwesomeIcon icon={faGithub} size='2x'/></a>
-                   
-                </div>
+                   </div>
                 </About>
            <Quick>
                <h4>Quick Links</h4>
-                <a href="#" style={{color:"#fff"}}><li style={{listStyle:'none'}}>Privacy Policy</li></a>
-                <a href="#"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>Terms & Conditions</li></a>
-                <a href="#"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>Disclaimer</li></a>
+                <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}>Privacy Policy</li></a>
+                <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>Terms & Conditions</li></a>
+                <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>Disclaimer</li></a>
             </Quick>
             <Contact>
                 <h4>Contact Us</h4>
-                <a href="#" style={{color:"#fff"}}><li style={{listStyle:'none'}}>5698562368</li></a>
-                <a href="#"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>xyz@gmail.com</li></a>
-                <a href="#"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>xyz.com</li></a>
-            
-                </Contact>
+                <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}>5698562368</li></a>
+                <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>xyz@gmail.com</li></a>
+                <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>xyz.com</li></a>
+             </Contact>
     </Container>
     </Body>
-    
     );
 }
 export default Footer;
