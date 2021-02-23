@@ -1,6 +1,74 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import './AdminCard.css';
+import styled from 'styled-components';
+
+const StyledCardContainer = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
+const StyledCard = styled(Card)`
+  width: 16rem;
+  border-radius: 0.8em !important;
+  opacity: 1;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  padding: 0.4%;
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+`;
+
+const StyledSocial = styled.div`
+  text-align: center;
+  margin-bottom: 0.8em;
+`;
+
+const StyledImage = styled(Card.Img)`
+  border-radius: 0.8em !important;
+`;
 
 const AdminCard = ({
   projectAdminName = 'Ayan Biswas',
@@ -8,24 +76,17 @@ const AdminCard = ({
   webSite = 'https://ayanbiswas.in',
 }) => {
   return (
-    <div className='CardContainer'>
-      <Card
-        style={{
-          width: '20rem',
-        }}
-        className='Card'
-        border='primary'
-      >
-        <Card.Img
+    <StyledCardContainer>
+      <StyledCard border='primary'>
+        <StyledImage
           variant='top'
           src={`https://avatars.githubusercontent.com/${GitHubUserName}`}
-          className='Image'
         />
         <Card.Body>
-          <Card.Title
-            style={{ textAlign: 'center' }}
-          >{`Project Admin : ${projectAdminName}`}</Card.Title>
-          <div className='social'>
+          <Card.Title style={{ textAlign: 'center' }}>
+            {projectAdminName}
+          </Card.Title>
+          <StyledSocial>
             <a
               href={`https://github.com/${GitHubUserName}`}
               rel='noopener noreferrer'
@@ -39,8 +100,8 @@ const AdminCard = ({
               />
               {GitHubUserName}
             </a>
-          </div>
-          <div className='social'>
+          </StyledSocial>
+          <StyledSocial>
             <a href={webSite} rel='noopener noreferrer' target='_blank'>
               <img
                 src='https://www.saganetwork.net/img/domainikon.png'
@@ -49,10 +110,10 @@ const AdminCard = ({
                 width='30'
               />
             </a>
-          </div>
+          </StyledSocial>
         </Card.Body>
-      </Card>
-    </div>
+      </StyledCard>
+    </StyledCardContainer>
   );
 };
 
