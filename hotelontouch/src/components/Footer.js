@@ -4,18 +4,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import Wave from 'react-wavify'
 const Container=styled.div`
-  background: #2749c4;
-  background: -moz-linear-gradient(left,  #2749c4 0%, #6085b2 100%);
-  background: -webkit-linear-gradient(left,  #2749c4 0%,#6085b2 100%);
-  background: linear-gradient(to right,  #2749c4 0%,#6085b2 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2749c4', endColorstr='#6085b2',GradientType=1 );
-  color:#fff;
+  background:#0069D9;
+ color:#fff;
   display:flex;
   flex-wrap:wrap;
   justify-content:space-around;
-  margin-top:auto;
   align-items:center;
-  z-index:2
+ padding-bottom:30px;
 `
 const Quick=styled.div`
 `
@@ -29,12 +24,11 @@ const Contact=styled.div`
 const Body=styled.body`
 display:flex;
 flex-direction:column;
-height:100vh;
 `
 function Footer(){
     return(
       <Body>
-            <Wave fill='#375ABF'
+        <Wave fill='#0069D9'
         paused={false}
         options={{
           height: 20,
@@ -42,8 +36,7 @@ function Footer(){
           speed: 0.5,
           points: 3
         }}
-        style={{position:"relative",
-        bottom:"-64.5%",zIndex:1}}/>
+ /> 
         <Container>
         <About>
                 <h4>About us</h4>
@@ -67,7 +60,7 @@ function Footer(){
                 <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>xyz.com</li></a>
              </Contact>
     </Container>
-    </Body>
+</Body>
     );
 }
 export default Footer;
