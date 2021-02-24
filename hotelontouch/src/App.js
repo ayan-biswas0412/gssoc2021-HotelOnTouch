@@ -1,9 +1,8 @@
 import React from 'react';
 import { MemoryRouter, Switch, Route } from 'react-router-dom';
-
 import { HomePage } from './pages';
 import { NavbarComponent } from './components';
-
+import Footer from './components/Footer.js';
 import './App.css';
 
 const App = () => (
@@ -12,7 +11,10 @@ const App = () => (
       <Switch>
         <Route path="/" component={HomePage}></Route>
       </Switch>
-  </MemoryRouter>
+      <Footer/>
+     </MemoryRouter>
+    
+
 );
 
 export default App;
