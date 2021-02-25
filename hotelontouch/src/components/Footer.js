@@ -22,7 +22,8 @@ const Quick=styled.div`
 const About=styled.div`
 @media(max-width:500px){
     margin-left:10px;  
-}`
+}
+`
 const Contact=styled.div`
 `
 const Body=styled.body`
@@ -54,14 +55,14 @@ function Footer(){
                 <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}>Privacy Policy</li></a>
                 <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>Terms & Conditions</li></a>
                 <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>Disclaimer</li></a>
-            </Quick>
+          </Quick>
           <Contact>
                 <h4>Contact Us</h4>
                  <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}><CallIcon/>12345689</li></a>
                  <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><MailIcon/>HotelOnTouch@gmail.com</li></a>
                 <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><PublicIcon/>HotelOnTouch.com</li></a>
         </Contact>
-    </Container>
+  </Container>
     </Body>
  );
 }
