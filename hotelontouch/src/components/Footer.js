@@ -47,7 +47,7 @@ function Footer(){
           <About>
               <h4>HotelOnTouch</h4>
                 <div className="icons">
-                   <a href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch" style={{marginRight:'5px'}}><FontAwesomeIcon icon={faGithub} size='2x' color ='white'/></a>
+                   <a href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch" style={{marginRight:'5px'}}><FontAwesomeIcon icon={faGithub} size='5x' color ='white'/></a>
                 </div>
                 </About>
            <Quick>
