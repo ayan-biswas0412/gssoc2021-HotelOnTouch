@@ -22,8 +22,7 @@ const Quick=styled.div`
 const About=styled.div`
 @media(max-width:500px){
     margin-left:10px;  
-}
-`
+}`
 const Contact=styled.div`
 `
 const Body=styled.body`
