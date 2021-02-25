@@ -10,4 +10,4 @@ mongoose.connect(connection, {
 
 mongoose.connection.on('connected', () => {
     console.log('Database connected');
-});
+},  { useFindAndModify: false });

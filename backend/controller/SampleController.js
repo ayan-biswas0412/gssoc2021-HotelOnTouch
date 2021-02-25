@@ -2,56 +2,71 @@ const SampleModel = require('../model/SampleModel');
 
 const SampleController = {
 
-    async all (req, res) {
-        const data = await SampleModel.find();
-        res.send(data)
+    all (req, res) {
+        SampleModel.find()
+        .then(data => {
+            res.send(data)
+        })
+        .catch(err => {
+            res.send(err)
+        });
     },
 
-    async byId (req, res) {
-        const data = await SampleModel.findById(req.params.id);
-        res.send(data)
+    byId (req, res) {
+        const idParam = req.params.id;
+        SampleModel.findById(idParam)
+        .then(data => {
+            res.send(data)
+        })
+        .catch(err => {
+            res.send(err)
+        });
         
     },
 
-    async create (req, res) {
+    create (req, res) {
+        const bodyTitle = req.body.title
         const newSampleModel = new SampleModel({
-            title: req.body.title
+            title: bodyTitle
         });
-        await newSampleModel.save( (err, saved) => {
-            if (err) res.send(err);
 
-            res.send(saved)
+        newSampleModel.save()
+        .then(data => {
+            res.send(data)
         })
+        .catch(err => {
+            res.send(err)
+        });
     },
 
-    async update (req, res) {
-        const data = await SampleModel.findByIdAndUpdate(
+    update (req, res) {
+        const bodyTitle = req.body.title
+        const idParam = req.params.id;
+        SampleModel.findByIdAndUpdate(
             req.params.id,
             { 
-                title: req.body.title,
+                title: bodyTitle,
             },
             { new: true }
-          );
+          )
+          .then(data => {
+              res.send(data)
+          })
+          .catch(err => {
+              res.send(err)
+          })
 
-          if (!data){
-            return res
-              .status(404)
-              .send("Data with id not found");
-          }
-        
-          res.send(data);
     },
 
-    async remove (req, res) {
+    remove (req, res) {
         const idParam = req.params.id;
-        const data = await SampleModel.findByIdAndRemove(idParam);
-        if (!data){
-            return res
-            .status(404)
-            .send("Data with id not found");
-        }
-
-        res.send(data);
+        SampleModel.findByIdAndRemove(idParam)
+        .then(data => {
+            res.send(data)
+        })
+        .catch(err => {
+            res.send(err)
+        });
     }
 };
 
