@@ -14,18 +14,9 @@ const OpenSourceProgramme = () => {
         {
             "name" : "Girlscript Summer of Code 2021",
             "url" :"https://gssoc.girlscript.tech/index.html",
-            "logo" :"https://avatars.githubusercontent.com/aniketsingh98571"
-        },
-        {
-            "name" : "Girlscript Summer of Code 2021",
-            "url" :"https://gssoc.girlscript.tech/index.html",
-            "logo" : "https://avatars.githubusercontent.com/aniketsingh98571"
-        },
-        {
-            "name" : "Girlscript Summer of Code 2021",
-            "url" :"https://gssoc.girlscript.tech/index.html",
-            "logo" : "https://avatars.githubusercontent.com/aniketsingh98571"
+            "logo" :"https://gssoc.girlscript.tech/images/favicon/favicon.png"
         }
+        
     ];
   const renderCard = (card, index) => {
       return (
