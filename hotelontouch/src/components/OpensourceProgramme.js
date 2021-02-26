@@ -16,7 +16,6 @@ const OpenSourceProgramme = () => {
             "url" :"https://gssoc.girlscript.tech/index.html",
             "logo" :"https://gssoc.girlscript.tech/images/favicon/favicon.png"
         }
-        
     ];
   const renderCard = (card, index) => {
       return (

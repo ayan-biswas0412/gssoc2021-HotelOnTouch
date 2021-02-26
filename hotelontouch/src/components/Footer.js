@@ -50,7 +50,7 @@ function Footer(){
           points: 3
         }}
  /> 
-        <Container>
+  <Container>
         <About>
                 <h4>About us</h4>
                 <p>In Todays Generation the Hotel Industries are changing rapidly so this platform will manage the in house needs of hotels like 
