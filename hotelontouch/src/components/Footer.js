@@ -68,8 +68,8 @@ function Footer(){
             <Contact>
                 <h4>Contact Us</h4>
                 <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}><CallIcon/>9532698542</li></a>
-                <a href="mailto:ayanbiswas184@gmail.com"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><MailIcon/>ayanbiswas184@gmail.com</li></a>
-                <a href="https://hotelontouch.netlify.app/" style={{color:"#fff"}}><li style={{listStyle:'none'}}><PublicIcon/>HotelOnTouch</li></a>
+                <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><MailIcon/>ayanbiswas184@gmail.com</li></a>
+                <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}><PublicIcon/>HotelOnTouch</li></a>
              </Contact>
   </Container>
 </Body>
