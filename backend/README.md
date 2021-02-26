@@ -6,10 +6,10 @@ This README will take you through the process to setup the backend folder locall
 
 The following technologies are required to run the server and use it locally.
 
-- nodejs
-- monogodb
-- npm
-- postman
+- [nodejs](https://nodejs.org/en/download/)
+- [monogodb](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/)
+- [git](https://git-scm.com/downloads)
+- [postman](https://www.postman.com/downloads/)
 
 ### Installation
 
