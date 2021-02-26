@@ -2,7 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import CallIcon from '@material-ui/icons/Call';
 import MailIcon from '@material-ui/icons/Mail';
 import PublicIcon from '@material-ui/icons/Public';
 import Wave from 'react-wavify'
@@ -15,24 +14,22 @@ const Container=styled.div`
   align-items:center;
  padding-bottom:30px;
 @media(max-width:400px){
-   flex-diection:row;
-   align-items:center;
+   flex-diection:column;
+   
  }
 `
 const Quick=styled.div`
-@media(max-width:400px){
-  padding-left:5x;
-}
 `
 const About=styled.div`
-@media(max-width:500px){
-    margin-left:10px;
+@media(max-width:400px){
+  padding-left:10px
 }
 p{
   margin:0;
 }
 `
 const Contact=styled.div`
+padding-bottom:25px;
 `
 const Body=styled.body`
 display:flex;
@@ -56,7 +53,7 @@ function Footer(){
                 <p>In Todays Generation the Hotel Industries are changing rapidly so this platform will manage the in house needs of hotels like </p>
                 <p>laundry service, Room Service Management, Bar, Restraunt Order Management.</p>
                 <div className="icons">
-                   <a href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch" style={{marginRight:'5px'}}><FontAwesomeIcon icon={faGithub} size='2x' color='white'/></a>
+                   <a href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch" style={{marginRight:'5px'}}><FontAwesomeIcon icon={faGithub} size='2x' color='white' style={{marginTop:'10px'}}/></a>
                    </div>
         </About>
            <Quick>
@@ -67,7 +64,6 @@ function Footer(){
           </Quick>
             <Contact>
                 <h4>Contact Us</h4>
-                <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}><CallIcon/>9532698542</li></a>
                 <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><MailIcon/>ayanbiswas184@gmail.com</li></a>
                 <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}><PublicIcon/>HotelOnTouch</li></a>
              </Contact>
