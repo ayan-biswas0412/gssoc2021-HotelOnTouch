@@ -40,7 +40,7 @@ The following technologies are required to run the server and use it locally.
    ```
 6. Now to startup the nodejs server run
    ```sh
-   node app.js
+   npm start
    ```
    The Server is now running on http://localhost:3030
 
