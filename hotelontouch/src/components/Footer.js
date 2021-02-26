@@ -53,26 +53,25 @@ function Footer(){
   <Container>
         <About>
                 <h4>About us</h4>
-                <p>In Todays Generation the Hotel Industries are changing rapidly so this platform will manage the in house needs of hotels like 
-                </p>
+                <p>In Todays Generation the Hotel Industries are changing rapidly so this platform will manage the in house needs of hotels like </p>
                 <p>laundry service, Room Service Management, Bar, Restraunt Order Management.</p>
                 <div className="icons">
                    <a href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch" style={{marginRight:'5px'}}><FontAwesomeIcon icon={faGithub} size='2x' color='white'/></a>
                    </div>
-                </About>
+        </About>
            <Quick>
                <h4>Quick Links</h4>
                 <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}>Privacy Policy</li></a>
                 <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>Terms & Conditions</li></a>
                 <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>Disclaimer</li></a>
-            </Quick>
+          </Quick>
             <Contact>
                 <h4>Contact Us</h4>
                 <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}><CallIcon/>9532698542</li></a>
                 <a href="mailto:ayanbiswas184@gmail.com"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><MailIcon/>ayanbiswas184@gmail.com</li></a>
                 <a href="https://hotelontouch.netlify.app/" style={{color:"#fff"}}><li style={{listStyle:'none'}}><PublicIcon/>HotelOnTouch</li></a>
              </Contact>
-    </Container>
+  </Container>
 </Body>
     );
 }
