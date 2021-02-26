@@ -13,16 +13,19 @@ const Container=styled.div`
   justify-content:space-around;
   align-items:center;
  padding-bottom:30px;
-@media(max-width:400px){
-   flex-diection:column;
-   
- }
 `
 const Quick=styled.div`
+@media(max-width:400px){
+  text-align:center;
+}
+@media(max-width:800px){
+  padding: 0px 10px
+  margin-bottom:5px;
+}
 `
 const About=styled.div`
-@media(max-width:400px){
-  padding-left:10px
+@media(max-width:500px){
+  padding: 0px 10px
 }
 p{
   margin:0;
@@ -30,6 +33,9 @@ p{
 `
 const Contact=styled.div`
 padding-bottom:25px;
+@media(max-width:400px){
+  text-align:center;
+}
 `
 const Body=styled.body`
 display:flex;
