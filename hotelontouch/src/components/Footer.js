@@ -13,9 +13,7 @@ const Container=styled.div`
   flex-wrap:wrap;
   justify-content:space-around;
   align-items:center;
-  padding-bottom:290px;
-  width: 100%; 
-  height:700px;
+  padding-bottom:35px; 
 `
 const Quick=styled.div`
 `
@@ -36,7 +34,7 @@ function Footer(){
 <Wave fill='#1089ff'
         paused={false}
         options={{
-          height: 60,
+          height: 50,
           amplitude: 25,
           speed: 0.5,
           points: 3
