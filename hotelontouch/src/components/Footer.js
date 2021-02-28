@@ -13,7 +13,7 @@ const Container=styled.div`
   flex-wrap:wrap;
   justify-content:space-around;
   align-items:center;
-  padding-bottom:35px; 
+  padding-bottom:40px; 
 `
 const Quick=styled.div`
 `
@@ -34,13 +34,12 @@ function Footer(){
 <Wave fill='#1089ff'
         paused={false}
         options={{
-          height: 50,
+          height: 20,
           amplitude: 25,
-          speed: 0.5,
+          speed: 0.6,
           points: 3
         }}
-        style={{position:"relative",
-        bottom:"-24.5%",zIndex:1}}/>
+      />
         <Container>
           <About>
               <h4>HotelOnTouch</h4>
