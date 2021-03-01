@@ -2,6 +2,7 @@
 
 <div align="centre">
 
+[![CodeFactor](https://www.codefactor.io/repository/github/ayan-biswas0412/gssoc2021-hotelontouch/badge)](https://www.codefactor.io/repository/github/ayan-biswas0412/gssoc2021-hotelontouch)
 [![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch)
