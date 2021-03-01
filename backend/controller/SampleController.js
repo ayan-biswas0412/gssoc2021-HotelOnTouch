@@ -43,7 +43,7 @@ const SampleController = {
         const bodyTitle = req.body.title
         const idParam = req.params.id;
         SampleModel.findByIdAndUpdate(
-            req.params.id,
+            idParam,
             { 
                 title: bodyTitle,
             },

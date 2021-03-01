@@ -1,6 +1,5 @@
 const express = require("express");
 const app = express();
-const sampleModelRoute = require("./route/SampleRoute")
 
 require("dotenv").config();
 
