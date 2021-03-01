@@ -9,7 +9,7 @@ require("./config/database");
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-require("./route")(app);
+require("./route/app")(app);
 
 const port = process.env.PORT || 3030;
 app.listen(port, () =>
