@@ -1,24 +1,21 @@
-## Setting up the Project:-
-1. Fork the repository
-2. `git clone https://github.com/<YOUR-USERNAME>/gssoc2021-HotelOnTouch`
-3. `cd gssoc2021-HotelOnTouch`
-4. `cd hotelontouch`
-5. `yarn start`
-6. Open http://localhost:3000 to view it in the browser.
-
-## How to Contribute?
-1. Fork the repository
-2. `git clone https://github.com/<YOUR-USERNAME>/gssoc2021-HotelOnTouch`
-3. `cd gssoc2021-HotelOnTouch`
-4. `cd hotelontouch`
-5. `git branch "<Your-BranchName>"`
-6. Go to `src/components`.
-7. Add your component with your function name example `Footer.js`
-```js
-function Footer(){
-}
-export default Footer;
-```
-8. `git add <Your-FileName with extension>`
-9. `git commit -a -m "Your Commit Message"`
-10. `git push origin <Your-BranchName>`
+📦src<br>
+ ┣ 📂assets<br>
+ ┃ ┗ 📜gssoc.png<br>
+ ┣ 📂[components-Create Your own here](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotelontouch/src/components)<br>
+ ┃ ┣ 📜Footer.js<br>
+ ┃ ┣ 📜[index.js-Export your component Here](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/blob/main/hotelontouch/src/components/index.js)<br>
+ ┃ ┣ 📜NavbarComponent.js<br>
+ ┃ ┗ 📜OpensourceProgramme.js<br>
+ ┣ 📂data<br>
+ ┃ ┗ 📜projectData.js<br>
+ ┣ 📂pages<br>
+ ┃ ┣ 📜HomePage.js<br>
+ ┃ ┗ 📜[index.js-Export your component Here too](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/blob/main/hotelontouch/src/pages/index.js)<br>
+ ┣ 📜App.css<br>
+ ┣ 📜App.js<br>
+ ┣ 📜App.test.js<br>
+ ┣ 📜index.css<br>
+ ┣ 📜index.js<br>
+ ┣ 📜logo.svg<br>
+ ┣ 📜reportWebVitals.js<br>
+ ┗ 📜setupTests.js<br>
