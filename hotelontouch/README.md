@@ -19,3 +19,4 @@
  ┣ 📜logo.svg<br>
  ┣ 📜reportWebVitals.js<br>
  ┗ 📜setupTests.js<br>
+ Regarding Project setup and Contribution, please refer [Wiki](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki)
