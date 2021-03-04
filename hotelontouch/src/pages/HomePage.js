@@ -2,6 +2,7 @@ import React from "react";
 import { Container, Jumbotron, Button } from "react-bootstrap";
 import { projectRepository } from "../data/projectData";
 import { AllContributors } from "../components";
+
 function HomePage() {
   return (
     <>
