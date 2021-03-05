@@ -10,8 +10,6 @@ const AllContributors = () => {
       const result = await fetch(baseUrl)
         .then((data) => data.json())
         .then((data) => data);
-
-      console.log(`this is list of contributors ${result[0].login}`);
       setData(result);
     };
     fetchData();
@@ -26,8 +24,8 @@ const AllContributors = () => {
               <CardWrapper>
                 <Image src={avatar_url} alt={login} />
                 <ContributorInfo>
-                  <UserName>{login}</UserName>
                   <Link href={html_url} target="_blank" rel="noreferrer">
+                    <UserName>{login}</UserName>
                     <img
                       src="https://cdn.worldvectorlogo.com/logos/github-icon-1.svg"
                       width="20px"
@@ -58,18 +56,18 @@ const Wrapper = styled.section`
   margin-top: 60px;
 `;
 const ContributorWrapper = styled.div`
+  margin-top: 40px;
   display: flex;
-  gap: 50px;
+  gap: 25px;
   flex-wrap: wrap;
   justify-content: center;
-  text-align: center;
+  /* text-align: center; */
 `;
 
 const CardWrapper = styled.div`
-  margin-top: 60px;
   min-width: 168px;
   flex: 1;
-  max-width: 300px;
+  max-width: 175px;
   position: relative;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
 `;
@@ -88,7 +86,6 @@ const ContributorInfo = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
   background-color: lightblue;
@@ -98,6 +95,9 @@ const ContributorInfo = styled.div`
 const Link = styled.a`
   display: flex;
   align-items: center;
+  gap: 6px;
+  color: black;
+  text-decoration: none !important;
 `;
 
 const UserName = styled.div`
