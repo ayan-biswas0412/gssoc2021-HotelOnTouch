@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Jumbotron, Button } from 'react-bootstrap';
-import { AdminCard } from '../components/index';
+import { AdminCard ,OpenSourceProgramme} from '../components/index';
 import { projectRepository } from '../data/projectData';
 
 function HomePage() {
@@ -28,6 +28,7 @@ function HomePage() {
         </p>
       </Jumbotron>
       <AdminCard />
+      <OpenSourceProgramme/>
     </Container>
   );
 }
