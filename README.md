@@ -13,6 +13,11 @@
 </div>
 
 ### We are now part of GSSoC 2021 ! 
+<p align="center">
+<a href="https://gssoc.girlscript.tech/">
+<img src="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/docs/gssoc2021_logo.png" alt="GSSOC" width="250px" height="250px"/>
+</a>
+</p>
 We got accepted for the GSSoc 2021 and activelty looking for new participants,please feel free to ask questions in the discussion section of this repository and if you want to be our mentor please mention in the discussion.
 
 [![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com)
