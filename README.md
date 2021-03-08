@@ -144,6 +144,7 @@ if (thisRepo.isAwesome()) {
 }
 ```
 
-### We are now part of GSSoC 2021 ! 
+# We are now part of GSSoC 2021 ! 
 [![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://gssoc.girlscript.tech)
-We got accepted for the GSSoc 2021 and activelty looking for new participants,please feel free to ask questions in the discussion section of this repository and if you want to be our mentor please mention in the discussion.
+*We got accepted for the [GSSoc 2021](https://gssoc.girlscript.tech/) and activelty looking for new participants :technologist: :woman_technologist: ,please feel free to ask questions :thinking: in the discussion section of this repository and if you want to be our mentor :woman_teacher: :teacher:  please mention in the discussion.*
+:dizzy: :dizzy: :dizzy:
