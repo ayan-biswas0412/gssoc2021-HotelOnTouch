@@ -69,14 +69,9 @@ To make a completely open sourced in house hotel management system
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [React Routing Video](https://www.youtube.com/watch?v=Law7wfdg_ls&t=1778s)
 - [Top 5 Skills you must read before working with react](https://www.geeksforgeeks.org/top-5-skills-you-must-know-before-you-learn-reactjs/)
-
-
--   [Complete Intro to React, v5](https://frontendmasters.com/courses/complete-react-v5/)
-
+-   [Complete Intro to React, v5](https://frontendmasters.com/courses/complete-react-v5/)  
 -   [Intermediate React](https://frontendmasters.com/courses/intermediate-react/)
-
 -   [Introduction to MongoDB](https://frontendmasters.com/courses/mongodb/)
-
 - [API Design in Node.js (using Express & Mongo)](https://frontendmasters.com/courses/api-design-nodejs/using-the-mongo-with-node/)
 
 ## License
@@ -89,7 +84,6 @@ I hope you are all staying safe at your home and enjoying the contribution for y
 
 ```javascript
 /**
- *
  * Let's fight for Corona together!
  */
 function stayAtHome() {
