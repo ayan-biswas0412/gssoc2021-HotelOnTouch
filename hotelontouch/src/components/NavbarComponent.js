@@ -1,4 +1,7 @@
 import React from "react";
+import { faBuilding } from "@fortawesome/free-solid-svg-icons";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   Navbar,
   Nav,
@@ -18,14 +21,7 @@ function NavbarComponent() {
       variant="light"
     >
       <Navbar.Brand href="/">
-        <img
-          alt=""
-          src="/navlogo.svg"
-          width="30"
-          height="30"
-          className="d-inline-block align-top"
-        />{" "}
-        HotelOnTouch
+        <FontAwesomeIcon icon="building" /> HotelOnTouch
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
@@ -44,3 +40,4 @@ function NavbarComponent() {
   );
 }
 export default NavbarComponent;
+library.add(faBuilding);
