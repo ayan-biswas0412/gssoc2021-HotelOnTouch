@@ -4,6 +4,8 @@ import { Jumbotron, Button } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import { projectRepository } from '../data/projectData';
 import image from '../assets/undraw_project_team_lc5a.svg';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Centering = styled.div`
 justify-content:space-around;
@@ -32,8 +34,8 @@ function SystemFeature() {
                 beginners a hand on experience in the open source journey
             </p>
 			<p>
-			  <Button variant='primary' href={projectRepository}>
-				Contribue to this Project
+			  <Button variant='primary' size="lg" href={projectRepository}>
+				<FontAwesomeIcon icon={ faGithub } style={{marginRight: "14px"}}/>Contribue to this Project
 			  </Button>
 			</p>
         </Jumbotron>
