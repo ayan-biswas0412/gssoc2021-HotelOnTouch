@@ -25,7 +25,6 @@ class Login extends Component{
   handleSubmit = (event) => {
    event.preventDefault();
    console.log(`Username: ${this.state.username}`);
-   console.log(`Password: ${this.state.password}`);
   }
 
   onloadCallback() {
