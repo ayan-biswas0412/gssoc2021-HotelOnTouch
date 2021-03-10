@@ -29,7 +29,7 @@ function HomePage() {
         </p>
       </Jumbotron>
       <AdminCard />
-      <OpenSourceProgramme />
+      <OpenSourceProgramme/>
       <AllContributors />
       <SystemFeature />
     </Container>
