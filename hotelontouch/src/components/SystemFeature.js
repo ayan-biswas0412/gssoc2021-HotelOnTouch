@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components'
-import { Container, Jumbotron, Button } from 'react-bootstrap';
+import { Jumbotron } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import image from '../assets/undraw_project_team_lc5a.svg';
 
