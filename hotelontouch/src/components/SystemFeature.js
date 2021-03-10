@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components'
-import { Jumbotron } from 'react-bootstrap';
+import { Jumbotron, Button } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
+import { projectRepository } from '../data/projectData';
 import image from '../assets/undraw_project_team_lc5a.svg';
 
 const Centering = styled.div`
@@ -30,6 +31,11 @@ function SystemFeature() {
                 the end users. This project aims to give a hands on experience to the
                 beginners a hand on experience in the open source journey
             </p>
+			<p>
+			  <Button variant='primary' href={projectRepository}>
+				Contribue to this Project
+			  </Button>
+			</p>
         </Jumbotron>
     );
 }
