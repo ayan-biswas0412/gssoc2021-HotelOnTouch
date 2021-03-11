@@ -1,56 +1,57 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Form } from 'react-bootstrap';
-
-const useForm = (initialValues) => {
-  const [values, setValues] = useState(initialValues);
-
-  return [
-    values,
-    (e) => setValues({ ...values, [e.target.name]: e.target.value }),
-  ];
-};
+import { useForm } from 'react-hook-form';
 
 const ContactUs = () => {
-  const [values, handleChange] = useForm({ name: '', email: '', message: '' });
+  const { register, handleSubmit, errors } = useForm();
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(values);
+  const onSubmit = (data) => {
+    console.log(data);
   };
 
   return (
     <Form
-      onSubmit={handleSubmit}
-      style={{ display: 'flex', flexDirection: 'column' }}
+      onSubmit={handleSubmit(onSubmit)}
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%',
+      }}
     >
-      <Form.Group controlId='formGroupName'>
+      <Form.Group controlId='formGroupName' style={{ width: '400px' }}>
         <Form.Label>Name</Form.Label>
         <Form.Control
           name='name'
           type='string'
           placeholder='Name'
-          onChange={handleChange}
+          ref={register({ required: true })}
         />
       </Form.Group>
-      <Form.Group controlId='formGroupEmail'>
+      {errors.name && <span>This field is required</span>}
+      <Form.Group controlId='formGroupEmail' style={{ width: '400px' }}>
         <Form.Label>Email address</Form.Label>
         <Form.Control
           name='email'
           type='email'
           placeholder='Email'
-          onChange={handleChange}
+          ref={register({ required: true })}
         />
       </Form.Group>
-      <Form.Group controlId='formGroupMessage'>
+      {errors.email && <span>This field is required</span>}
+      <Form.Group controlId='formGroupMessage' style={{ width: '400px' }}>
         <Form.Label>Message</Form.Label>
         <Form.Control
           name='message'
           type='string'
           as='textarea'
           placeholder='Message'
-          onChange={handleChange}
+          style={{ height: '80px' }}
+          ref={register({ required: true })}
         />
       </Form.Group>
+      {errors.message && <span>This field is required</span>}
       <input
         type='submit'
         style={{
