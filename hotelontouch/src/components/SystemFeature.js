@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { Jumbotron, Button } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import { projectRepository } from '../data/projectData';
-import image from '../assets/undraw_project_team_lc5a.svg';
+import image from '../assets/welcome_image.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
