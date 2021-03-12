@@ -151,6 +151,16 @@ userSchema.pre("save", async function (next) {
     next();
 });
 
+// Hash the password on creation / edit
+customerSchema.pre("save", async function (next) {
+    if (!this.isModified || !this.isNew) {
+        next();
+    } else this.isModified("password");
+    if (this.password)
+        this.password = await bcrypt.hash(String(this.password), 12);
+    next();
+});
+
 let Customer = mongoose.model("Customer", customerSchema);
 let User = mongoose.model("User", userSchema);
 
