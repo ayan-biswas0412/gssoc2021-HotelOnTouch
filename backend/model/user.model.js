@@ -51,7 +51,7 @@ const userSchema = new Schema({
     user_secret: {
         type: String,
         default: null
-    },
+    }
 }, {
     timestamps: true
 });
@@ -68,6 +68,18 @@ const customerSchema = new Schema({
         type: String,
         required: true,
         unique: true
+    },
+    // Email
+    email: {
+        type: String,
+        required: true,
+        unique: true
+    },
+    // Password
+    password: {
+        type: String,
+        required: true,
+        minlength: 6
     },
     // Other room occupants
     occupancy: {
@@ -120,6 +132,11 @@ const customerSchema = new Schema({
         type: Boolean,
         default: false
     },
+    // User secret to be used in forgot password or account verification
+    user_secret: {
+        type: String,
+        default: null
+    }
 }, {
     timestamps: true
 });
