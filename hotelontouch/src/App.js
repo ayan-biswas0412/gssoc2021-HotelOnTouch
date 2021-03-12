@@ -10,8 +10,8 @@ const App = () => (
   <>
     <NavbarComponent />
     <Switch>
-      <Route exact path='/' component={HomePage}></Route>
-      <Route path='/contact' component={ContactUsPage} />
+      <Route path='/' component={HomePage}></Route>
+      <Route exact path='/contact' component={ContactUsPage} />
     </Switch>
     <Footer />
   </>
