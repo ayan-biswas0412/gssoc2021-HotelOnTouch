@@ -1,10 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Container, Jumbotron, Button } from 'react-bootstrap';
 import { AdminCard ,OpenSourceProgramme,AllContributors} from '../components/index';
 import { projectRepository } from '../data/projectData';
+import {lightTheme , darkTheme} from "./Theme" ;
+import {ThemeProvider} from "styled-components";
 
 function HomePage() {
+
+
+    const [theme, setTheme] = useState('light');
+    const themeToggler = () => {  theme === 'light'? setTheme('dark'): setTheme('light')  }
+
   return (
+    <ThemeProvider theme={theme === 'light'? lightTheme: darkTheme}>
     <Container>
       <br />
       <br />
@@ -31,6 +39,7 @@ function HomePage() {
       <OpenSourceProgramme/>
       <AllContributors />
     </Container>
+  </ThemeProvider>
   );
 }
 

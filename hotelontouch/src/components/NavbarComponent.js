@@ -1,9 +1,16 @@
-import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
+import React, {useState} from 'react';
+import { Navbar, Nav  } from 'react-bootstrap';
 
 
-function NavbarComponent() {
+function NavbarComponent(props) {
+
+  const [theme, setTheme] = useState('dark');
+  const themeToggler = () => {  theme === 'dark'? setTheme('light'): setTheme('dark')  }
+
+
     return (
+
+
         <Navbar bg="light" expand="lg">
             <Navbar.Brand href="/">
                HotelOnTouch
@@ -14,6 +21,7 @@ function NavbarComponent() {
                     <Nav.Link href="/">Home</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
+            <button onClick = {props.dark}>Change Theme</button>
         </Navbar>
     );
 }
