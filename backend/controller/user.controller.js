@@ -56,14 +56,20 @@ const Register = async(req, res) => {
 
 const Login = async(req, res) => {
     try {
-        const { email, password, type } = req.body;
+        if (!req.body.email || !req.body.password || !req.body.type) {
+            return res.status(400).json({
+                "message": "Invalid Inputs",
+                "error": "email or password or type not provided"
+            });
+        }
+
         let user;
         
         // Find if email exists
         if (type == "customer") {
-            user = await Customer.findOne({ email });
+            user = await Customer.findOne({ email: req.body.email });
         } else if (type == "employee" || type == "admin") {
-            user = await Staff.findOne({ email });
+            user = await Staff.findOne({ email: req.body.email });
         } else {
             return res.status(400).json({
                 "message": "Invalid User Type"
