@@ -8,7 +8,7 @@ import {ThemeProvider} from "styled-components";
 function HomePage() {
 
 
-    const [theme, setTheme] = useState('light');
+  const [theme] = useState('light');
   return (
     <ThemeProvider theme={theme === 'light'? lightTheme: darkTheme}>
     <Container>
