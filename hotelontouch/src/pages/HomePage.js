@@ -1,8 +1,7 @@
 import React from 'react';
 import { Container, Jumbotron, Button } from 'react-bootstrap';
-import { AdminCard ,OpenSourceProgramme,AllContributors} from '../components/index';
+import { AdminCard ,OpenSourceProgramme,AllContributors,OurSolution} from '../components/index';
 import { projectRepository } from '../data/projectData';
-
 function HomePage() {
   return (
     <Container>
@@ -29,9 +28,9 @@ function HomePage() {
       </Jumbotron>
       <AdminCard />
       <OpenSourceProgramme/>
-      <AllContributors />
+      <OurSolution/>
+      <AllContributors/>
     </Container>
   );
 }
-
 export default HomePage;

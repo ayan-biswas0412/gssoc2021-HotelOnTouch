@@ -3,7 +3,6 @@ import { MemoryRouter, Switch, Route } from 'react-router-dom';
 import { HomePage } from './pages';
 import { NavbarComponent } from './components';
 import Footer from './components/Footer';
-
 import './App.css';
 const App = () => (
   <MemoryRouter>
@@ -11,7 +10,7 @@ const App = () => (
       <Switch>
         <Route path="/" component={HomePage}></Route>
       </Switch>
-      <Footer/>
+     <Footer/>
   </MemoryRouter>
   );
 export default App;
