@@ -1,9 +1,8 @@
 import React from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
 import Switch from '@material-ui/core/Switch';
-import FormGroup from '@material-ui/core/FormGroup';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
-import FormControl from '@material-ui/core/FormControl';
+
 
 function NavbarComponent(props) {
 
@@ -17,7 +16,7 @@ function NavbarComponent(props) {
         <Nav.Link href="/">Home</Nav.Link>
       </Nav>
     </Navbar.Collapse>
-    <FormControlLabel onClick={props.dark} value="end" control={<Switch color = "secondary" />} label="Change Them" labelPlacement="end"/>
+    <FormControlLabel onClick={props.dark} value="end" control={<Switch color = "secondary" />} label="Change Theme" labelPlacement="end"/>
   </Navbar>);
 }
 
