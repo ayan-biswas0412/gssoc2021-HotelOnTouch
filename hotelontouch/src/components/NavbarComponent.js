@@ -5,7 +5,7 @@ import { Navbar, Nav  } from 'react-bootstrap';
 function NavbarComponent(props) {
 
   const [theme, setTheme] = useState('dark');
-  const themeToggler = () => {  theme === 'dark'? setTheme('light'): setTheme('dark')  }
+  // const themeToggler = () => {  theme === 'dark'? setTheme('light'): setTheme('dark')  }
 
 
     return (
