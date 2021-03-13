@@ -146,7 +146,6 @@ We got accepted for the GSSoc 2021 and activelty looking for new participants,pl
 
 
 ## Contributors:
-
 ### Credits goes to these people:✨
 
 <table>
