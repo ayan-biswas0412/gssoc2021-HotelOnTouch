@@ -143,3 +143,18 @@ if (thisRepo.isAwesome()) {
 We got accepted for the GSSoc 2021 and activelty looking for new participants,please feel free to ask questions in the discussion section of this repository and if you want to be our mentor please mention in the discussion.
 
 ### Go to the [Wiki](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki) for more information.
+
+
+## Contributors:
+
+### Credits goes to these people:✨
+
+<table>
+	<tr>
+		<td>
+   <a href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=ayan-biswas0412/gssoc2021-HotelOnTouch" />
+</a>
+		</td>
+	</tr>
+</table>
