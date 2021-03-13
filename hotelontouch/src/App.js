@@ -12,8 +12,8 @@ import { GlobalStyles } from './components/Global';
 
 const App = () => {
 
-  const [theme, setTheme] = useState('dark');
-  const themeToggler = () => {  theme === 'dark'? setTheme('light'): setTheme('dark')  }
+  const [theme, setTheme] = useState('light');
+  const themeToggler = () => {  theme === 'light'? setTheme('dark'): setTheme('light')  }
 
   return (
     <ThemeProvider theme={theme === 'light'? lightTheme: darkTheme}>
