@@ -1,8 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-import { Card, Button } from "react-bootstrap";
-import Wave from "react-wavify";
-
+import React from 'react';
+import styled from 'styled-components';
+import { Card, Button } from 'react-bootstrap';
+import Wave from 'react-wavify';
 const Grid = styled.div`
   display: flex;
   flex-direction: row;
@@ -58,9 +57,9 @@ const StyleImg = styled(Card.Img)`
 const OpenSourceProgramme = () => {
   const cardInfo = [
     {
-      name: "Girlscript Summer of Code 2021",
-      url: "https://gssoc.girlscript.tech/index.html",
-      logo: "https://gssoc.girlscript.tech/images/favicon/favicon.png",
+      "name": "Girlscript Summer of Code 2021",
+      "url": "https://gssoc.girlscript.tech/index.html",
+      "logo": "https://gssoc.girlscript.tech/images/favicon/favicon.png",
     },
   ];
   const renderCard = (card, index) => {
