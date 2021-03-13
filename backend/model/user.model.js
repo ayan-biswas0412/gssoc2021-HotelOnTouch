@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 const bcrypt = require("bcrypt");
 
 // User Schema ... actual users of the application - admin & employees
-const userSchema = new Schema({
+const staffSchema = new Schema({
     // Type: admin or employee
     type: {
         type: String,
@@ -115,17 +115,17 @@ const customerSchema = new Schema({
     // Date-time of booking
     booking_time: {
         type: String,
-        required: true
+        default: null
     },
-    // Active, in-active, booked
+    // Active, in-active, booked, waiting
     status: {
         type: String,
-        required: true
+        default: "inactive"
     },
     // Amount to be paid
     balance: {
         type: String,
-        required: true
+        default: null
     },
     // Paymeny Status
     has_paid: {
@@ -142,7 +142,7 @@ const customerSchema = new Schema({
 });
 
 // Hash the password on creation / edit
-userSchema.pre("save", async function (next) {
+staffSchema.pre("save", async function (next) {
     if (!this.isModified || !this.isNew) {
         next();
     } else this.isModified("password");
@@ -162,9 +162,9 @@ customerSchema.pre("save", async function (next) {
 });
 
 let Customer = mongoose.model("Customer", customerSchema);
-let User = mongoose.model("User", userSchema);
+let Staff = mongoose.model("Staff", staffSchema);
 
 module.exports = {
     Customer,
-    User
+    Staff
 }
