@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 import Wave from 'react-wavify';
 const Grid = styled.div`
   display: flex;
