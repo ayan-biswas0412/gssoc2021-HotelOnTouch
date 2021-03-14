@@ -16,12 +16,12 @@ const OurSolution = () => {
     const cardInfo = [
         {
             "name" : "Hotel Guest App",
-            "url" :"https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/customerfrontend",
+            "url" :"https://restraunt-hotelontouch.netlify.app/",
             "logo" :logo1
         },
         {
             "name": "Hotel Admin App",
-            "url": "https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-admin-frontend",
+            "url": "https://admin-hotelontouch.netlify.app/",
             "logo" : logo2
         },
         {
