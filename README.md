@@ -69,14 +69,9 @@ To make a completely open sourced in house hotel management system
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [React Routing Video](https://www.youtube.com/watch?v=Law7wfdg_ls&t=1778s)
 - [Top 5 Skills you must read before working with react](https://www.geeksforgeeks.org/top-5-skills-you-must-know-before-you-learn-reactjs/)
-
-
--   [Complete Intro to React, v5](https://frontendmasters.com/courses/complete-react-v5/)
-    
+-   [Complete Intro to React, v5](https://frontendmasters.com/courses/complete-react-v5/)  
 -   [Intermediate React](https://frontendmasters.com/courses/intermediate-react/)
-    
 -   [Introduction to MongoDB](https://frontendmasters.com/courses/mongodb/)
-    
 - [API Design in Node.js (using Express & Mongo)](https://frontendmasters.com/courses/api-design-nodejs/using-the-mongo-with-node/)
 
 ## License
@@ -89,7 +84,6 @@ I hope you are all staying safe at your home and enjoying the contribution for y
 
 ```javascript
 /**
- * 
  * Let's fight for Corona together!
  */
 function stayAtHome() {
@@ -114,7 +108,7 @@ while(_.isAlive(new Virus('COVID-19'))) {
 4. **SPACE**: Keep safe distance
 5. **HOME**: Stay if you can
 
-### :x: Avoid Handshakes :handshake: 
+### :x: Avoid Handshakes :handshake:
 ### :heavy_check_mark: Do Namastey :pray:
 
 <br>
@@ -144,6 +138,8 @@ if (thisRepo.isAwesome()) {
 }
 ```
 
-### We are now part of GSSoC 2021 ! 
+### We are now part of GSSoC 2021 !
 [![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://gssoc.girlscript.tech)
 We got accepted for the GSSoc 2021 and activelty looking for new participants,please feel free to ask questions in the discussion section of this repository and if you want to be our mentor please mention in the discussion.
+
+### Go to the [Wiki](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki) for more information.
