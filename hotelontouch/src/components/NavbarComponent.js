@@ -4,6 +4,8 @@ import Switch from '@material-ui/core/Switch';
 import { faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+
 import {
   Navbar,
   Nav,
