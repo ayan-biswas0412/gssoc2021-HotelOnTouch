@@ -1,14 +1,10 @@
 const express = require("express");
-<<<<<<< HEAD
 const rateLimit = require('express-rate-limit');
 const helmet = require('helmet');
 const mongoSanitize = require('express-mongo-sanitize');
 const xss = require('xss-clean');
-
-=======
 const swaggerUi = require("swagger-ui-express");
 const swaggerSpec = require("./config/swagger");
->>>>>>> 9f3f9283bc5dfadd4b3254ea9c1cc91181621871
 const app = express();
 const cors = require('cors');
 
