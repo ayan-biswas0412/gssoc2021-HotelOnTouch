@@ -3,7 +3,6 @@ import {Navbar, Nav} from 'react-bootstrap';
 import Switch from '@material-ui/core/Switch';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 
-
 function NavbarComponent(props) {
 
   return (<Navbar bg="light" expand="lg">
