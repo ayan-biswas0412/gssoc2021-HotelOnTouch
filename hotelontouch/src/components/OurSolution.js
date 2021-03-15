@@ -16,7 +16,7 @@ const OurSolution = () => {
     const cardInfo = [
         {
             "name" : "Hotel Guest App",
-            "url" :"https://restraunt-hotelontouch.netlify.app/",
+            "url" :"https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-restraunt-frontend",
             "logo" :logo1
         },
         {
@@ -26,7 +26,7 @@ const OurSolution = () => {
         },
         {
             "name": "Hotel Services End App",
-            "url": "https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-restraunt-frontend",
+            "url": "https://restraunt-hotelontouch.netlify.app/",
             "logo" : logo3
         }
     ];
