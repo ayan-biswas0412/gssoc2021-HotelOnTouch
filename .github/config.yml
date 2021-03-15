@@ -12,7 +12,7 @@ newIssueWelcomeComment: >
 # Comment to be posted to on PRs from first time contributors in your repository
 newPRWelcomeComment: >
   🧑‍💻👩‍💻 Thanks for opening this pull request! Please check out our contributing guidelines.🥳🥳
-  Please be patient our project maintainers will be get back to you soon and till then you can differenct issues listed [here](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/issues)
+  Please be patient our project maintainers will get back to you soon and till then you can find different issues listed [here](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/issues)
   And Please make sure you have completed the [Onboarding Process](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributor-Onboarding).
 
 # Configuration for first-pr-merge - https://github.com/behaviorbot/first-pr-merge
