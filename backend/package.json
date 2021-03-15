@@ -10,12 +10,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+<<<<<<< HEAD
     "express-mongo-sanitize": "^2.0.2",
     "express-rate-limit": "^5.2.6",
     "helmet": "^4.4.1",
     "mongoose": "^5.11.15",
     "xss-clean": "^0.1.1"
+=======
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "swagger-jsdoc": "5.0.1",
+    "swagger-ui-express": "^4.1.6"
+>>>>>>> 9f3f9283bc5dfadd4b3254ea9c1cc91181621871
   }
 }
