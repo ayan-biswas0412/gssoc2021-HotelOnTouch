@@ -107,7 +107,7 @@ const OpenSourceProgramme = () => {
                 >
                   Website
                 </Button>
-              
+
             </CardBody>
           </a>
           <Wave
@@ -126,10 +126,5 @@ const OpenSourceProgramme = () => {
   }
   return <Grid>{cardInfo.map(renderCard)}</Grid>
 };
-<<<<<<< HEAD
-export default OpenSourceProgramme ; 
-=======
 
-export default OpenSourceProgramme;
-
->>>>>>> 680805af389fb5e5449af67351b333fc48de2800
+ export default OpenSourceProgramme ;

@@ -42,8 +42,5 @@ function SystemFeature() {
     );
 }
 
-<<<<<<< HEAD
+
 export default SystemFeature;
-=======
-export default SystemFeature;
->>>>>>> 680805af389fb5e5449af67351b333fc48de2800
