@@ -1,5 +1,3 @@
-import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
 import React from "react";
 import { faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -40,7 +38,6 @@ function NavbarComponent() {
     </Navbar>
   );
 }
-export default NavbarComponent;
 export default NavbarComponent;
 library.add(faBuilding);
 
