@@ -16,7 +16,7 @@ const OurSolution = () => {
     const cardInfo = [
         {
             "name" : "Hotel Guest App",
-            "url" :"https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-restraunt-frontend",
+            "url" :"https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/customerfrontend",
             "logo" :logo1
         },
         {
