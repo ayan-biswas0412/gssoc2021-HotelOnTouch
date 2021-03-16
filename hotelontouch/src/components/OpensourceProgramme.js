@@ -17,7 +17,7 @@ const Heading = styled.h1`
   margin-bottom: 1.5rem;
   letter-spacing: 3px;
   color: #333;
-  -webkit-text-stroke: 1px #282828;
+  -webkit-text-stroke: 1px #fcfefe;
   text-shadow: 0px 4px 4px #282828;
 `;
 
