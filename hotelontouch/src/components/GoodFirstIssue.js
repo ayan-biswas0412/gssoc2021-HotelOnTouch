@@ -13,7 +13,7 @@ function GoodFirstIssue() {
               fontsize: "1.2em",
               fontWeight: "600",
               fontStyle: "italic",
-              color: "#565fa1"
+              color: "#0069D9"
             }}
           >
             first
@@ -22,7 +22,7 @@ function GoodFirstIssue() {
         </SectionTitle>
         <Text>❝ Make your first open-source contribution ❞</Text>
         <Button
-          href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/contribute"
+          href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/issues?q=is%3Aopen+is%3Aissue+label%3ALevel1"
           target="_blank"
         >
           Contribute
@@ -65,7 +65,7 @@ const Button = styled.a`
   border-radius: 40px;
   padding: 8px 20px;
   margin-top: 15px;
-  background: #565fa1;
+  background: #0069D9;
   font-family: sans-serif;
   font-size: 1em;
   font-weight: 700;
