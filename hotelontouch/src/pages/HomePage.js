@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import { AdminCard ,OpenSourceProgramme,AllContributors} from '../components/index';
+import { AdminCard ,OpenSourceProgramme,AllContributors,GoodFirstIssue} from '../components/index';
 import SystemFeature from '../components/SystemFeature';
 
 function HomePage() {
@@ -11,6 +11,7 @@ function HomePage() {
       <SystemFeature />
       <AdminCard />
       <OpenSourceProgramme/>
+       <GoodFirstIssue />
       <AllContributors />
     </Container>
   );
