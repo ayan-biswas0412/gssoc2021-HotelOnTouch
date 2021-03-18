@@ -5,7 +5,6 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Switch from '@material-ui/core/Switch';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Brightness5OutlinedIcon from '@material-ui/icons/Brightness5Outlined';
-import IconButton from '@material-ui/core/IconButton';
 
 import {
   Navbar,
