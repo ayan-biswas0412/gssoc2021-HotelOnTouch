@@ -37,11 +37,26 @@ This project aims to give a hands on experience to the beginners a hand on exper
 
 ## Tech Stack
 
-1. ReactJS for frontend Development
-2. ExpressJS and MongoDB for Backend development (using mongoose framework)
-3. React Bootstrap Library for rapid frontend development
-4. Javascript Tests using automated scripts
-5. Deployment to Cloud using Github Actions (Advance Stage work)
+Frontend Development
+
+<img alt="React JS" src="https://img.shields.io/badge/react js%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+  
+Backend development (using mongoose framework)
+
+<img alt="Express.js" src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>	<img alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white"/>	<img alt="Mongoose" src ="https://img.shields.io/badge/Mongoose-%234ea94b.svg?&style=for-the-badge&logo=mongoose&logoColor=white"/>	
+
+Rapid frontend development
+
+
+<img alt="React Bootstrap Library" src="https://img.shields.io/badge/react bootstrap library%20-%2320232a.svg?&style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+
+Javascript Tests using automated scripts
+
+<img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
+
+Deployment to Cloud using Github Actions (Advance Stage work)
+
+<img alt="GitHub Actions" src="https://img.shields.io/badge/github actions%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
 
 ## Contributing
 
