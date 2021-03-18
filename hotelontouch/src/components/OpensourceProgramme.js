@@ -19,6 +19,7 @@ const Heading = styled.h1`
   color: #333;
   -webkit-text-stroke: 1px #fcfefe;
   text-shadow: 0px 4px 4px #282828;
+  toggleBorder :white ; 
 `;
 
 const CardBody = styled(Card.Body)`

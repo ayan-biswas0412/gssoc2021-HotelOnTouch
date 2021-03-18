@@ -1,32 +1,12 @@
-// import React from 'react';
-// import {Navbar, Nav} from 'react-bootstrap';
-// import Switch from '@material-ui/core/Switch';
-// import FormControlLabel from '@material-ui/core/FormControlLabel';
-//
-// function NavbarComponent(props) {
-//
-//   return (<Navbar bg="light" expand="lg">
-//     <Navbar.Brand href="/">
-//       HotelOnTouch
-//     </Navbar.Brand>
-//     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-//     <Navbar.Collapse id="basic-navbar-nav">
-//       <Nav className="mr-auto">
-//         <Nav.Link href="/">Home</Nav.Link>
-//       </Nav>
-//     </Navbar.Collapse>
-//     <FormControlLabel onClick={props.dark} value="end" control={<Switch color = "secondary" />} label="Change Theme" labelPlacement="end"/>
-//   </Navbar>);
-// }
-//
-// export default NavbarComponent;
-
 import React from "react";
 import {faBuilding} from "@fortawesome/free-solid-svg-icons";
 import {library} from "@fortawesome/fontawesome-svg-core";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import Switch from '@material-ui/core/Switch';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
+import Brightness5OutlinedIcon from '@material-ui/icons/Brightness5Outlined';
+import IconButton from '@material-ui/core/IconButton';
+
 import {
   Navbar,
   Nav,
@@ -37,6 +17,9 @@ import {
 } from "react-bootstrap";
 
 function NavbarComponent(props) {
+
+
+
   return (<Navbar sticky="top" collapseOnSelect="collapseOnSelect" expand="lg" bg="light" variant="light">
     <Navbar.Brand href="/">
       <FontAwesomeIcon icon="building"/>
@@ -54,8 +37,11 @@ function NavbarComponent(props) {
         <FormControl type="text" placeholder="Search" className="mr-sm-2"/>
         <Button variant="outline-info">Search</Button>
       </Form>
+
+ <FormControlLabel onClick= {props.dark} size="Normal" control={<Switch/>} labelPlacement = "start" color = "primary" label= <Brightness5OutlinedIcon/>  />
+
+
     </Navbar.Collapse>
-    <FormControlLabel onClick = {props.dark} value="top" control={<Switch color = "secondary" />} label="Switch Theme" labelPlacement="Top"/>
   </Navbar>);
 }
 export default NavbarComponent;
