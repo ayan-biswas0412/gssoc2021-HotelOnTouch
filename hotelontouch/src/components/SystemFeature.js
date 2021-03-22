@@ -6,23 +6,39 @@ import { projectRepository } from '../data/projectData';
 import image from '../assets/welcome_image.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import  { Breakpoint, BreakpointProvider } from 'react-socks';
+
+import '../App.css';
 
 const Centering = styled.div`
 justify-content:space-around;
 align-items:center;
+padding-bottom:60px;
+width:70%;
 text-align:center;
-padding-bottom:40px;
+margin-left: 15%;
 `
 
 function SystemFeature() {
     return (
-        <Jumbotron >
-            <Centering>
+        <Jumbotron className="jumbotron-card">
+            <Centering >
                 <Image src={image} style={{ textAlign: 'center' }} fluid />
             </Centering>
-
-            <h1>Completely Open Sourced Hotel Management System</h1>
-            <p>
+            <BreakpointProvider>
+                <Breakpoint large up>
+                <div className="typewriter">
+                <h1> Completely Open Sourced Hotel Management System</h1>
+                </div>
+                </Breakpoint>
+                <Breakpoint medium down>
+                <div>
+                <h1> Completely Open Sourced Hotel Management System</h1>
+                </div>
+                </Breakpoint>
+            </BreakpointProvider>
+          
+            <p style={{marginTop: "20px"}}>
                 In Todays Generation the Hotel Industries are changing rapidly so this
                 platform will manage the in house needs of hotels like laundry
                 service, Room Service Management, Bar, Restraunt Order
@@ -34,9 +50,11 @@ function SystemFeature() {
                 beginners a hand on experience in the open source journey
             </p>
 			<p>
-			  <Button variant='primary' size="lg" href={projectRepository}>
-				<FontAwesomeIcon icon={ faGithub } style={{marginRight: "14px"}}/>Contribue to this Project
+            
+			  <Button variant='dark' size="lg" href={projectRepository}  >
+				<FontAwesomeIcon icon={ faGithub } style={{marginRight: "14px"}}/>Contribute to this Project
 			  </Button>
+          
 			</p>
         </Jumbotron>
     );
