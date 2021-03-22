@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.jumbotron-card
+{
+  width: 95%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-left: 2.5%;
+}
+.jumbotron-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+ .typewriter h1
+{
+  color: black;
+  overflow: hidden;
+  border-right: .10em solid black;
+   white-space: nowrap;
+  margin: 0 auto;/* Gives that scrolling effect as the typing happens */
+  letter-spacing: .001em;
+  animation:
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+    display: flex;
+}
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black }
+}
