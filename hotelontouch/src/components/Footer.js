@@ -2,8 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
-import MailIcon from '@material-ui/icons/Mail';
-import PublicIcon from '@material-ui/icons/Public';
 import Wave from 'react-wavify'
 
 import { projectRepository } from '../data/projectData';
