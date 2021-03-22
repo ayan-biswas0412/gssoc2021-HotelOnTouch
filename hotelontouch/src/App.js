@@ -4,7 +4,9 @@ import { HomePage, ContactPage } from './pages';
 import { NavbarComponent } from './components';
 import Footer from './components/Footer';
 
+
 import './App.css';
+
 const App = () => (
   <>
       <NavbarComponent/>
