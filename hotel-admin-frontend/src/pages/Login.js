@@ -46,7 +46,7 @@ class Login extends Component{
         <img src={process.env.PUBLIC_URL+'favicon_logo.ico'} alt="Logo" style={{width:"50px",height:"50px"}}/>
      <h3 style = {{textAlign: "center",marginTop:"15px"}}>Login to Hotel On Touch</h3>
      <div style={{display:"flex",justifyContent:"center",padding:"30px",
-                  borderRadius:"10%",width:"350px",height:"300px",backgroundColor:"#dddddd",
+                  borderRadius:"10%",width:"350px",height:"400px",backgroundColor:"#dddddd",
                   boxShadow: "3px 6px grey"}}>
      <Form onSubmit={this.handleSubmit}>
       <Form.Group size="lg" controlId="username" style={{width:"300px"}}>
