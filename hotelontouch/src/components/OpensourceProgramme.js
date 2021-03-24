@@ -33,6 +33,6 @@ const OpenSourceProgramme = () => {
     };
 return <Grid>
  {cardInfo.map(renderCard)}
-  </Grid>;
+  </Grid>; 
 };
 export default OpenSourceProgramme

@@ -60,13 +60,24 @@ const StyledCard = styled(Card)`
     }
   }
 `;
+const renderCard = (card, index) => {
+      return (
+        <div>
+          <h4 style={{fontWeight:'bold',fontFamily:'sans-serif'}}>Project Admin</h4>
+       <Card style={{ width: "20rem",boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }} key={index} className="box">
+          <Card.Img variant="top" src={card.logo}/>
+        </Card>
+        </div>
+      );
+    };
+
 
 const StyledSocial = styled.div`
   text-align: center;
   margin-bottom: 0.8em;
 `;
 
-const StyledImage = styled(Card.Img)`
+const StyledImage = styled(Card.Img)` 
   border-radius: 0.8em !important;
 `;
 
@@ -77,6 +88,9 @@ const AdminCard = ({
 }) => {
   return (
     <StyledCardContainer>
+      <div>
+          <h4 style={{fontWeight:'bold',fontFamily:'sans-serif'}}>Project Admin</h4>
+      </div>
       <StyledCard border='primary'>
         <StyledImage
           variant='top'
