@@ -31,7 +31,7 @@ function AppLaunch() {
                 </Row>
 
                 <Row>
-                    <Col className="d-flex flex-column justify-content-center align-items-center"><Centering>{desc}</Centering></Col>
+                    <Col className="d-flex flex-column justify-content-center align-items-center"><Centering>{feat}</Centering></Col>
                     <Col><Image src={apartmentImage} style={{ width: '90%', height: '90%' }} fluid /></Col>
                 </Row>
             </Container>
