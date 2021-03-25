@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { Container, Jumbotron } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import { Row, Col } from 'react-bootstrap';
-import { projectRepository } from '../data/projectData';
 import travelImage from '../assets/travel_plans.svg';
 import apartmentImage from '../assets/apartment_rent.svg';
 
