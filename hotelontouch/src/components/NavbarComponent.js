@@ -10,6 +10,10 @@ import {
   FormControl,
   NavDropdown,
 } from "react-bootstrap";
+
+import {Link} from 'react-router-dom';
+import * as ROUTES from '../constants/routes';
+
 function NavbarComponent() {
   return (
     <Navbar
@@ -19,7 +23,7 @@ function NavbarComponent() {
       bg="light"
       variant="light"
     >
-      <Navbar.Brand href="/">
+      <Navbar.Brand as={Link} to={ROUTES.HOMEPAGE}>
         <FontAwesomeIcon icon="building" /> HotelOnTouch
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -28,7 +32,7 @@ function NavbarComponent() {
           <NavDropdown title="SignUp/SignIn" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Register</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Login</NavDropdown.Item>
-            <NavDropdown.Item href="/contact">Contact Us</NavDropdown.Item>         
+            <NavDropdown.Item as={Link} to={ROUTES.CONTACT_PAGE}>Contact Us</NavDropdown.Item>         
           </NavDropdown>
         </Nav>
         <Form inline>
