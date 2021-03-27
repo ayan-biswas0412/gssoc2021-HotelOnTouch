@@ -1,4 +1,5 @@
 import React from "react";
+import "./Navbar.css"
 import { faBuilding } from "@fortawesome/free-solid-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import {
