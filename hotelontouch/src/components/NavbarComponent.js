@@ -10,7 +10,6 @@ import {
   FormControl,
   NavDropdown,
 } from "react-bootstrap";
-
 function NavbarComponent() {
   return (
     <Navbar
@@ -29,6 +28,7 @@ function NavbarComponent() {
           <NavDropdown title="SignUp/SignIn" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Register</NavDropdown.Item>
             <NavDropdown.Item href="#action/3.2">Login</NavDropdown.Item>
+            <NavDropdown.Item href="/contact">Contact Us</NavDropdown.Item>         
           </NavDropdown>
         </Nav>
         <Form inline>
@@ -41,3 +41,4 @@ function NavbarComponent() {
 }
 export default NavbarComponent;
 library.add(faBuilding);
+
