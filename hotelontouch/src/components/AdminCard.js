@@ -60,17 +60,6 @@ const StyledCard = styled(Card)`
     }
   }
 `;
-const renderCard = (card, index) => {
-      return (
-        <div>
-          <h4 style={{fontWeight:'bold',fontFamily:'sans-serif'}}>Project Admin</h4>
-       <Card style={{ width: "20rem",boxShadow: "0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)" }} key={index} className="box">
-          <Card.Img variant="top" src={card.logo}/>
-        </Card>
-        </div>
-      );
-    };
-
 
 const StyledSocial = styled.div`
   text-align: center;
@@ -87,11 +76,15 @@ const AdminCard = ({
   webSite = 'https://ayanbiswas.in',
 }) => {
   return (
-    <StyledCardContainer>
+      <StyledCardContainer>
+      
+      <StyledCard border='primary'>
       <div>
           <h4 style={{fontWeight:'bold',fontFamily:'sans-serif'}}>Project Admin</h4>
+          <Card style={{ width: "0rem" }} >
+          <Card.Img variant="top" src={Card.logo}/>
+        </Card>
       </div>
-      <StyledCard border='primary'>
         <StyledImage
           variant='top'
           src={`https://avatars.githubusercontent.com/${GitHubUserName}`}
@@ -131,4 +124,7 @@ const AdminCard = ({
   );
 };
 
+// ReactDom.render(<AdminCard /> , document.getElementsByClassName('box'))
+// export default renderCard;
 export default AdminCard;
+
