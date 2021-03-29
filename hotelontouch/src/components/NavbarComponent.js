@@ -26,8 +26,8 @@ function NavbarComponent() {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="mr-auto">
           <NavDropdown title="SignUp/SignIn" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Register</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Login</NavDropdown.Item>
+            <NavDropdown.Item href="/Register">Register</NavDropdown.Item>
+            <NavDropdown.Item href="/LogIn">Login</NavDropdown.Item>
             <NavDropdown.Item href="/contact">Contact Us</NavDropdown.Item>         
           </NavDropdown>
         </Nav>

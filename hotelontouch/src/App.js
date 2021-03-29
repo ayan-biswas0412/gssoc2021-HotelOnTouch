@@ -1,6 +1,6 @@
 import React from 'react';
 import {Switch, Route } from 'react-router-dom';
-import { HomePage, ContactPage } from './pages';
+import { HomePage, ContactPage, RegisterPage } from './pages';
 import { NavbarComponent } from './components';
 import Footer from './components/Footer';
 
@@ -13,6 +13,8 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={HomePage}></Route>
         <Route path="/contact" component={ContactPage}></Route>
+        <Route path="/Register" render={() => <RegisterPage isSignUp={true}/>}/>
+        <Route path="/LogIn" render={() => <RegisterPage isSignUp={false}/>}/>
       </Switch>
       <Footer/>
   </>
