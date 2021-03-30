@@ -6,9 +6,7 @@
 }
 
 .container_reg {
-    
-    /* width: 400px; */
-    max-width: 800px; 
+    max-width: 800px;
     align-self:  center;
     margin: 1rem;
     padding: 2rem;
