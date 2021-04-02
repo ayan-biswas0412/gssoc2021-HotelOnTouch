@@ -1,5 +1,4 @@
 const { Router } = require("express");
-const menuItemController = require("../controller/menuController");
 const router = Router();
 const MenuController = require("../controller/menuController");
 

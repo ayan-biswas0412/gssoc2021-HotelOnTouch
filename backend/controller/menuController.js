@@ -49,10 +49,10 @@ const menuItemController={
 ,
 
     updateItem(req,res){
-          const disheprice=req.body.disheprice
+          const dishprice=req.body.dishprice
           const dishId=req.params.dishId;
           menuItemModel.findByIdAndUpdate(dishId,{
-             'dishprice':disheprice
+             'dishprice':dishprice
           })
           .then((item)=>{
             res.statusCode=200;
