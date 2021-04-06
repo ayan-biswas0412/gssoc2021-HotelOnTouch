@@ -20,9 +20,9 @@
 
 ## Project Description
 
-In Todays Generation the Hotel Industries are changing rapidly so this platform will manage the in house needs of hotels like laundry service, Room Service Management, Bar, Restraunt Order Management.There will be one customer end system and hotel end system and customer can request hotel for one of the above service.
-We will use the basic ReactJS, MongoDB and ExpressJS for the web development purpose and the entire project will be open source and free to use for the end users.
-This project aims to give a hands on experience to the beginners a hand on experience in the open source journey
+In Todays Generation, Hotel Industries are changing rapidly so this platform will manage the in-house needs of hotels like laundry service, Room Service Management, Bar, Restaurant Order Management. There will be one customer end system and hotel end system and customers can request a hotel for one of the above services.
+We will use the basic ReactJS, MongoDB, and ExpressJS for the web development purpose and the entire project will be open source and free to use for the end-users.
+This project aims to give a hands-on experience to beginners a hand on experience in the open-source journey.
 
 ## Project Modules
 
@@ -64,7 +64,7 @@ Deployment to Cloud using Github Actions (Advance Stage work)
 
 > Please have a look at our [Wiki](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki) to understand the contributing guidelines properly and to know the project better.
 
-Also Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT.md) thoroughly.If you are visiting this repo first time and you want to contribuite to this repo as a participant or a mentor please complete the [Onboarding Process](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributor-Onboarding)
+Also please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT.md) thoroughly.If you are visiting this repo first time and you want to contribute to this repo as a participant or a mentor please complete the [Onboarding Process](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributor-Onboarding)
 
 ## Main motto
 
@@ -155,7 +155,7 @@ if (thisRepo.isAwesome()) {
 
 ### We are now part of GSSoC 2021 !
 [![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://gssoc.girlscript.tech)
-We got accepted for the GSSoc 2021 and activelty looking for new participants,please feel free to ask questions in the discussion section of this repository and if you want to be our mentor please mention in the discussion.
+We got accepted for the GSSoc 2021 and actively looking for new participants, please feel free to ask questions in the discussion section of this repository and if you want to be our mentor please mention it in the discussion.
 
 ### Go to the [Wiki](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki) for more information.
 
