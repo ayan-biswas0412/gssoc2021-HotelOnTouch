@@ -40,8 +40,8 @@ const CardBody = styled(Card.Body)`
 `;
 
 const Box = styled.div`
-  width: 17rem;
-  height: 23rem;
+  width: 19rem;
+  height: 26.5rem;
   position: relative;
   margin: 10px auto;
   overflow: hidden;
