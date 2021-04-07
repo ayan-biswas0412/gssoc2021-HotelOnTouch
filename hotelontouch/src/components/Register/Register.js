@@ -72,6 +72,7 @@ class Register extends Component  {
         
         return (
             <Container align="center">
+            <br/>
             <div className="container_reg">
                 {form}
                 <br/>
