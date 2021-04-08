@@ -1,7 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import CallIcon from '@material-ui/icons/Call';
 import MailIcon from '@material-ui/icons/Mail';
@@ -13,7 +11,6 @@ import Wave from 'react-wavify'
 
 import "./Styles.css"
 
-import { projectRepository } from '../data/projectData';
 const Container=styled.div`
   background:#0069D9;
  color:#fff;
@@ -22,29 +19,6 @@ const Container=styled.div`
   justify-content:space-around;
   align-items:center;
  padding-bottom:30px;
-`
-const Quick=styled.div`
-@media(max-width:400px){
-  text-align:center;
-}
-@media(max-width:800px){
-  padding: 0px 10px
-  margin-bottom:5px;
-}
-`
-const About=styled.div`
-@media(max-width:500px){
-  padding: 0px 10px
-}
-p{
-  margin:0;
-}
-`
-const Contact=styled.div`
-padding-bottom:25px;
-@media(max-width:400px){
-  text-align:center;
-}
 `
 const Body=styled.body`
 display:flex;
