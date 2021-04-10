@@ -1,8 +1,9 @@
-const sampleroute = require('./SampleRoute')
-const userRoute = require('./user.route')
-const express = require('express')
-module.exports = function(app) {
-    app.use(express.json());
-    app.use('/sampleroute', sampleroute)
-    app.use('/user', userRoute)
-}
+var express = require('express');
+var router = express.Router();
+
+/* GET home page. */
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
+module.exports = router;

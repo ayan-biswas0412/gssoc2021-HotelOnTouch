@@ -62,11 +62,12 @@ const Login = async(req, res) => {
                 "error": "email or password or type not provided"
             });
         }
-
+        var type=req.body.type
+        var password=req.body.password
         let user;
         
         // Find if email exists
-        if (type == "customer") {
+        if (type ==="customer") {
             user = await Customer.findOne({ email: req.body.email });
         } else if (type == "employee" || type == "admin") {
             user = await Staff.findOne({ email: req.body.email });
@@ -85,6 +86,7 @@ const Login = async(req, res) => {
                     secret_key,
                     jwt_headers
                 );
+                console.log(accessToken)
                 return res.status(200).json({
                     "message": "User logged in",
                     "jwt_token": accessToken,
@@ -101,10 +103,12 @@ const Login = async(req, res) => {
             });
         }
     } catch (err) {
+        console.log(err)
         return res.status(500).json({
             "message": "Internal Server Error",
             "error": err
         });
+     
     }
 };
 

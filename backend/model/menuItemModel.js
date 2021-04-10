@@ -10,7 +10,7 @@ const Schema = mongoose.Schema;
             required:true
         },
         dishprice:{
-            type:String,
+            type:Number,
             required:true
         }
     },{

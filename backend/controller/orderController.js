@@ -1,5 +1,8 @@
 const orderModel=require("../model/orderModel")
 const mongoose = require('mongoose');
+const jwt=require('jsonwebtoken');
+const { unsubscribe } = require("../route");
+const secret_key = process.env.JWT_SECRET || secret_key_for_jwt_token;
 const orderController={
 
     allorders(req,res){
@@ -13,9 +16,21 @@ const orderController={
     },
 
     createOrder(req,res){
+        var user_id;
+        if (req.headers && req.headers.authorization) {
+            var authorization = req.headers.authorization.split(' ')[1],
+                decoded;
+            try {
+                decoded = jwt.verify(authorization, secret_key);
+                user_id=decoded.user_id
+            } catch (e) {
+                return res.status(401).send('unauthorized');
+            }
+            
+        }
         if(req.body!=null)
         {
-            req.body.customer=req.user._id;
+            req.body.customer=user_id;
             orderModel.create(req.body)
             .then((order)=>{
                 orderModel.findById(order._id)
@@ -43,8 +58,19 @@ const orderController={
     }
     ,
     getOrderbyCustomer(req,res){
-        const custopmerId=req.params,custopmerId;
-        orderModel.find({'customer':custopmerId})
+        var user_id;
+        if (req.headers && req.headers.authorization) {
+            var authorization = req.headers.authorization.split(' ')[1],
+                decoded;
+            try {
+                decoded = jwt.verify(authorization, secret_key);
+                user_id=decoded.user_id
+            } catch (e) {
+                return res.status(401).send('unauthorized');
+            }
+            
+        }
+        orderModel.find({'customer':user_id})
         .populate([{
             path:'customer',
             model:"Customer"
@@ -64,15 +90,26 @@ const orderController={
 ,
 
     updateOrder(req,res){
+        var user_id;
+        if (req.headers && req.headers.authorization) {
+            var authorization = req.headers.authorization.split(' ')[1],
+                decoded;
+            try {
+                decoded = jwt.verify(authorization, secret_key);
+                user_id=decoded.user_id
+            } catch (e) {
+                return res.status(401).send('unauthorized');
+            }
+            
+        }
           const dishes=req.body.dishes
-          const id=req.params.id;
-          orderModel.findByIdAndUpdate(id,{
+          orderModel.findByIdAndUpdate(unsubscribe,{
               'dishes':[...dishes]
           })
           .then((order)=>{
             res.statusCode=200;
             res.setHeader('Content-Type', 'application/json');
-            res.json(orders);
+            res.json(order);
           })  
           .catch(err => {
             res.send(err)
@@ -80,8 +117,19 @@ const orderController={
     }
     ,
     deleteOrder(req,res){
-        const idParam = req.params.id;
-        orderModel.findByIdAndRemove(idParam)
+        var user_id;
+        if (req.headers && req.headers.authorization) {
+            var authorization = req.headers.authorization.split(' ')[1],
+                decoded;
+            try {
+                decoded = jwt.verify(authorization, secret_key);
+                user_id=decoded.user_id
+            } catch (e) {
+                return res.status(401).send('unauthorized');
+            }
+            
+        }
+        orderModel.findByIdAndRemove(user_id)
         .then(order => {
             res.send(order)
         })
