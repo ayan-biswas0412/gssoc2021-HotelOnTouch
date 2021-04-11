@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
 import MailIcon from '@material-ui/icons/Mail';
-import FacebookIcon from '@material-ui/icons/Facebook';
 import TwitterIcon from '@material-ui/icons/Twitter';
 import InstagramIcon from '@material-ui/icons/Instagram'
 import Wave from 'react-wavify'
@@ -82,7 +81,7 @@ function Footer(){
                 <div style={{display: "flex", justifyContent:"space-evenly"}}>
                 <a href="mailto:ayanbiswas184@gmail.com"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><MailIcon /></li></a>
                 <a href="mailto:ayanbiswas184@gmail.com"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><InstagramIcon /></li></a>
-                <a href="mailto:ayanbiswas184@gmail.com"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><TwitterIcon /></li></a>
+                <a href="https://twitter.com/ayanbiswas0412"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><TwitterIcon /></li></a>
                 </div>
                 {/* <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>xyz.com</li></a> */}
              </Contact>
