@@ -2,12 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
+import MailIcon from '@material-ui/icons/Mail';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import InstagramIcon from '@material-ui/icons/Instagram'
 import Wave from 'react-wavify'
 
 import { projectRepository } from '../data/projectData';
 const Container=styled.div`
   background:#0069D9;
- color:#fff;
+  color:#fff;
   display:flex;
   flex-wrap:wrap;
   justify-content:space-around;
@@ -25,7 +29,8 @@ const Quick=styled.div`
 `
 const About=styled.div`
 @media(max-width:500px){
-  padding: 0px 10px
+  text-align:center;
+  margin-bottom:20px
 }
 p{
   margin:0;
@@ -35,6 +40,9 @@ const Contact=styled.div`
 padding-bottom:25px;
 @media(max-width:400px){
   text-align:center;
+}
+@media(max-width:279px){
+    margin-top:35px;
 }
 `
 const Body=styled.body`
@@ -69,9 +77,13 @@ function Footer(){
                 <a href={projectRepository+'/discussions'}  style={{color:"#fff"}}><li style={{listStyle:'none'}}>Discussion Forum</li></a>
             </Quick>
             <Contact>
-                <h4>Contact Me</h4>
+                <h4 style={{marginTop: "-24px"}}>Contact Me</h4>
                 {/* <a href="/" style={{color:"#fff"}}><li style={{listStyle:'none'}}>5698562368</li></a> */}
-                <a href="mailto:ayanbiswas184@gmail.com"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>ayanbiswas184@gmail.com</li></a>
+                <div style={{display: "flex", justifyContent:"space-evenly"}}>
+                <a href="mailto:ayanbiswas184@gmail.com"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><MailIcon /></li></a>
+                <a href="mailto:ayanbiswas184@gmail.com"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><InstagramIcon /></li></a>
+                <a href="mailto:ayanbiswas184@gmail.com"  style={{color:"#fff"}}><li style={{listStyle:'none'}}><TwitterIcon /></li></a>
+                </div>
                 {/* <a href="/"  style={{color:"#fff"}}><li style={{listStyle:'none'}}>xyz.com</li></a> */}
              </Contact>
   </Container>
