@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Card, Button } from "react-bootstrap";
 import styled from "styled-components";
-import Wave from "react-wavify";
 
 const Heading = styled.h1`
   font-size: 4rem;
@@ -23,8 +22,8 @@ const Grid = styled.div`
 `;
 
 const CardBody = styled(Card.Body)`
-  background: #0069d9;
-  opacity: 0.9;
+  background: linear-gradient(120deg, #0069d9 50%, #234869 50%);
+  opacity: 0;
   position: absolute;
   top: 0%;
   right: -100%;
@@ -33,25 +32,31 @@ const CardBody = styled(Card.Body)`
   color: #fff;
   padding: 20px;
   display: grid;
+  border-radius: 15px;
   place-items: center;
   align-items: center;
   box-sizing: border-box;
-  transition: all 0.5s;
+  transition: all 0.2s;
+  z-index: -66;
+  transform: translateX(50%);
 `;
 
 const Box = styled.div`
   width: 19rem;
-  height: 26.5rem;
+  height: 19rem;
   position: relative;
   margin: 10px auto;
-  overflow: hidden;
-  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
 `;
-
 const Image = styled(Card.Img)`
   width: 100%;
   height: auto;
-  overflow: hidden;
+  overflow: visible;
+  border-radius: 15px;
+
+  transform: translateX(-0%);
 `;
 
 const AdminCard = () => {
@@ -75,29 +80,22 @@ const AdminCard = () => {
         <Heading>Project Admin</Heading>
 
         <Box key={index} onMouseEnter={hoverIn} onMouseLeave={hoverOut}>
-          <Card.Title
-            style={{
-              marginTop: "2%",
-              textShadow: "0px 4px 10px rgba(0,0,0,0.5)",
-              color: "black",
-              letterSpacing: "2px",
-              fontSize: "2rem",
-              margin: "0%",
-              visibility: set ? "hidden" : "visible",
-              backgroundColor: "lightblue",
-              padding: "5px",
-            }}
-          >
-            {card.projectAdminName}
-          </Card.Title>
-
           <Image
+            style={{
+              transform: set ? "translateX(-40%)" : "translateX(0%)",
+              transition: set ? ".5s" : ".2s",
+            }}
             variant="top"
             src={`https://avatars.githubusercontent.com/${card.GitHubUserName}`}
           />
 
           <a href={`https://github.com/${card.GitHubUserName}`}>
-            <CardBody style={{ right: set ? "0%" : "-100%" }}>
+            <CardBody
+              style={{
+                right: set ? "-10%" : "-50%",
+                zIndex: set ? "0" : "-67",
+              }}
+            >
               <Card.Title style={{ fontWeight: "bold", fontSize: "2rem" }}>
                 {card.projectAdminName}
               </Card.Title>
@@ -151,16 +149,6 @@ const AdminCard = () => {
               </Button>
             </CardBody>
           </a>
-          <Wave
-            fill="#0069D9"
-            paused={false}
-            options={{
-              height: 20,
-              amplitude: 20,
-              speed: 0.5,
-              points: 3,
-            }}
-          />
         </Box>
       </div>
     );
