@@ -23,7 +23,6 @@ const Grid = styled.div`
 
 const CardBody = styled(Card.Body)`
   background: linear-gradient(120deg, #0069d9 50%, #234869 50%);
-  opacity: 0;
   position: absolute;
   top: 0%;
   right: -100%;
@@ -55,7 +54,6 @@ const Image = styled(Card.Img)`
   height: auto;
   overflow: visible;
   border-radius: 15px;
-
   transform: translateX(-0%);
 `;
 
