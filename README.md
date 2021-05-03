@@ -100,4 +100,4 @@ Go to the Wiki for more information.
 </a>
 		</td>
 	</tr>
-</table>
+</table> 
