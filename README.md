@@ -20,9 +20,9 @@
 
 ## Project Description
 
-In Todays Generation the Hotel Industries are changing rapidly so this platform will manage the in house needs of hotels like laundry service, Room Service Management, Bar, Restraunt Order Management.There will be one customer end system and hotel end system and customer can request hotel for one of the above service.
+In Today's Generation the Hotel Industries are changing rapidly so this platform will manage the in house needs of hotels like laundry service, Room Service Management, Bar, Restaurants Order Management.There will be one customer end system and hotel end system and customer can request hotel for one of the above service.
 We will use the basic ReactJS, MongoDB and ExpressJS for the web development purpose and the entire project will be open source and free to use for the end users.
-This project aims to give a hands on experience to the beginners a hand on experience in the open source journey
+This project aims to give a hands on experience to the beginners in their open source journey
 
 ## Project Modules
 
@@ -30,7 +30,7 @@ This project aims to give a hands on experience to the beginners a hand on exper
 2. [Customer Facing Mobile App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/customerfrontend) (Android/IOS - development using React Native)
 3. [Hotel Admin Facing Web App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-admin-frontend) (Full Administrator access)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/bf151b70-a24d-442a-8353-ac90d90e6ae2/deploy-status)](https://app.netlify.com/sites/admin-hotelontouch/deploys)
-4. [Restraunt End Web App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-restraunt-frontend) (Same for Bar and Equivalent services)
+4. [Restaurant End Web App](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/tree/main/hotel-restraunt-frontend) (Same for Bar and Equivalent services)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a7b909f2-4f34-4de9-b611-00eebff4a756/deploy-status)](https://app.netlify.com/sites/restraunt-hotelontouch/deploys)
 5. Laundry End Web App
 6. On Demand service booking Web App (vary hotel to hotel basis)
@@ -64,7 +64,7 @@ Deployment to Cloud using Github Actions (Advance Stage work)
 
 > Please have a look at our [Wiki](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki) to understand the contributing guidelines properly and to know the project better.
 
-Also Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT.md) thoroughly.If you are visiting this repo first time and you want to contribuite to this repo as a participant or a mentor please complete the [Onboarding Process](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributor-Onboarding)
+Also Please read our [Contributing Guidelines](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributing), [Code of Conduct](CODE_OF_CONDUCT.md) thoroughly.If you are visiting this repo first time and you want to contribute to this repo as a participant or a mentor please complete the [Onboarding Process](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki/Contributor-Onboarding)
 
 ## Main motto
 
@@ -153,14 +153,14 @@ if (thisRepo.isAwesome()) {
 }
 ```
 
-### We are now part of GSSoC 2021 !
+### We are now a part of GSSoC 2021 !
 [![GSSoC](https://raw.githubusercontent.com/GirlScriptSummerOfCode/MentorshipProgram/master/GSsoc%20Type%20Logo%20Black.png)](https://gssoc.girlscript.tech)
-We got accepted for the GSSoc 2021 and activelty looking for new participants,please feel free to ask questions in the discussion section of this repository and if you want to be our mentor please mention in the discussion.
+We got accepted for the GSSoC 2021 and actively looking for new participants,please feel free to ask questions in the discussion section of this repository and if you want to be our mentor please mention in the discussion.
 
 ### Go to the [Wiki](https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch/wiki) for more information.
 
 
-## Contributors:
+## Our Contributors:
 ### Credits goes to these people:✨
 
 <table>
