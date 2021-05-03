@@ -39,15 +39,15 @@ function SystemFeature() {
             </BreakpointProvider>
           
             <p style={{marginTop: "20px"}}>
-                In Todays Generation the Hotel Industries are changing rapidly so this
-                platform will manage the in house needs of hotels like laundry
-                service, Room Service Management, Bar, Restraunt Order
-                Management.There will be one customer end system and hotel end system
-                and customer can request hotel for one of the above service. We will
+                In today's generation, the Hotel Industries are changing rapidly. So, this
+                platform will manage the in-house needs of hotels like laundry
+                service, room service management, bar and restaurant order
+                management. There will be a customer end system and a hotel end system
+                and the customer can request hotel for one of the above services. We will
                 use the basic ReactJS, MongoDB and ExpressJS for the web development
                 purpose and the entire project will be open source and free to use for
-                the end users. This project aims to give a hands on experience to the
-                beginners a hand on experience in the open source journey
+                the end users. This project aims to give a hands-on experience to the
+                beginners in the open source journey.
             </p>
 			<p>
             
