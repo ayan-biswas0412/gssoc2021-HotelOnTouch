@@ -1,0 +1,50 @@
+.card{
+    height: 700px;
+    box-sizing: border-box;
+}
+
+.card2{
+    width: 500px;
+    height: 2000px;
+    margin-top:50px ;
+    margin-left: 90px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 16px gray;
+    box-sizing: border-box;
+}
+.img{
+   margin-left: 25%;
+   margin-top:30px ;
+   border-radius: 50%;
+   box-shadow: 0px 20px 10px -2px  gray ;
+   box-sizing: border-box;
+}
+.details{
+    padding: 10px;
+    text-align: center;
+}
+.hotel_details{
+    text-align: center;
+    padding: 15px;
+    letter-spacing: .3px;
+}
+
+.h1tag{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 850px;
+    margin-top: -490px;
+    padding: 10px;
+    letter-spacing: .3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.ptag{
+    margin-left: 750px;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: .5px;
+}
+.btn{
+    margin-left: 1010px;
+    width: 150px;
+}
+
