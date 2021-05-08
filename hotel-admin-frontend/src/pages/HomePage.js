@@ -10,7 +10,7 @@ export default function HomePage() {
             <div class="card" >
               <div class="card2 " >
                 <div>
-                <img src={Lorem} class="img" alt="lorem image" />
+                <img src={Lorem} class="lorem" alt="lorem " />
                 </div>
                 <br></br>
                 <div>
@@ -46,7 +46,7 @@ export default function HomePage() {
               and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
               </p>
             <br></br>
-            <a  className="btn" class="btn btn-primary">Know more</a>
+            <a href="/about" className="btn" class="btn btn-primary">Know more</a>
               </div>
             </div>
           </div>
