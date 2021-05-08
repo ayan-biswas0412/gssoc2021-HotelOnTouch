@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Stylesheet/Home.css';
-import Imgage from '../Images/lorem.png';
+import Lorem from '../Images/lorem.png';
 
 export default function HomePage() {
   return (
@@ -10,7 +10,7 @@ export default function HomePage() {
             <div class="card" >
               <div class="card2 " >
                 <div>
-                <img src={Imgage} class="img" alt="lorem image" />
+                <img src={Lorem} class="img" alt="lorem image" />
                 </div>
                 <br></br>
                 <div>
@@ -46,7 +46,7 @@ export default function HomePage() {
               and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
               </p>
             <br></br>
-            <a href="#" className="btn" class="btn btn-primary">Know more</a>
+            <a  className="btn" class="btn btn-primary">Know more</a>
               </div>
             </div>
           </div>
