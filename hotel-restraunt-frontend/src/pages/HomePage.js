@@ -1,17 +1,35 @@
 import React from "react";
-import { Container, Jumbotron, Button } from "react-bootstrap";
+import '../style/Home.css';
+import Rest1 from '../assets/rest1.jpg';
+import Rest2 from '../assets/rest2.jpg';
+import {  Button } from "react-bootstrap";
 
 const HomePage = () => {
   return (
     <>
-      <Container>
-        <br />
-        <br />
-        <Jumbotron>
-          <h3>Home page</h3>
-          <h1>Welcome to project Hotel-restarunt-frontend</h1>
-
-          <p>
+    <div className="main">
+      <div>
+        <img src={Rest1} alt="restaurant" className="rest1"/>
+      </div>
+      <div className="head">
+        <h1 className="h1tag">Welcome</h1>
+        <h2 className="h2tag">
+          To Hotel Restaurant page
+        </h2>
+        <br></br>
+        <Button className="btn"
+              variant="secondary"
+              href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch"
+            >
+              <h5>Contribue to this Project</h5>
+            </Button>
+      </div>
+      <div>
+        <img src={Rest2} alt="restaurant" className="rest2"/>
+      </div>
+      <div className="about_rest">
+        <h2 className="h2tag2">About Restaurant</h2>
+        <p className="ptag">
             In Todays Generation the Hotel Industries are changing rapidly so
             this platform will manage the in house needs of hotels like laundry
             service, Room Service Management, Bar, Restraunt Order
@@ -23,16 +41,16 @@ const HomePage = () => {
             experience to the beginners a hand on experience in the open source
             journey
           </p>
-          <p>
-            <Button
-              variant="primary"
+          <Button className="btn2"
+              variant="secondary"
               href="https://github.com/ayan-biswas0412/gssoc2021-HotelOnTouch"
             >
-              Contribue to this Project
+              <h5>Contribue to this Project</h5>
             </Button>
-          </p>
-        </Jumbotron>
-      </Container>
+      </div>
+    </div>
+          
+       
     </>
   );
 };

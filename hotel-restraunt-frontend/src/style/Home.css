@@ -1,0 +1,56 @@
+
+.rest1{
+    width: 900px;
+    height: 420px;
+    margin-left: 630px;
+}
+.written{
+    margin-top: -90px;
+}
+.head{
+    margin-top: -240px;
+    margin-left: 100px;
+}
+.h1tag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 70px;
+    margin-left: 70px;
+}
+.h2tag{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 40px;
+}
+.btn{
+    margin-left: 120px;
+    width: 260px;
+}
+.rest2{
+    width: 800px;
+    margin-top: 50px;
+    margin-left: -40px;
+}
+.about_rest{
+    margin-top: -420px;
+    margin-left: 870px;
+}
+.h2tag2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 45px;
+    margin-left: 90px;
+}
+.ptag{
+    text-align: center;
+    margin-right: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+.btn2{
+    margin-left:190px ;
+    margin-top: 10px;
+}
