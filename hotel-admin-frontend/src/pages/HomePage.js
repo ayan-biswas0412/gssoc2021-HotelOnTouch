@@ -1,16 +1,19 @@
 import React from 'react';
 import '../Stylesheet/Home.css';
 import Lorem from '../Images/lorem.png';
+import { Container, Jumbotron, Button } from "react-bootstrap";
 
 export default function HomePage() {
   return (
     <>
-        
-        <div >
-            <div class="card" >
+    <br></br>
+      <Container> 
+        <br></br>
+        <Jumbotron className="jumbotron-card">
+          
               <div class="card2 " >
                 <div>
-                <img src={Lorem} class="lorem" alt="lorem " />
+                  <img src={Lorem} class="lorem" alt="lorem " />
                 </div>
                 <br></br>
                 <div>
@@ -34,22 +37,29 @@ export default function HomePage() {
                     <h6>Type of Room :- single</h6>
                   </div>
                 </div>
-                </div>
+              </div>
                 
               </div>
-              <div class="card-body">
-              <h1 class="card-title" className="h1tag">Welcome ! To Admin Page</h1>
-              <p class="card-text" className="ptag">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              <div className="about">
+                <h1  className="h1tag">Welcome ! To Admin Page</h1>
+                <p  className="ptag">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
               Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
-              type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
-              typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-              and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+              type and scrambled it to make a type specimen book.simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+              type and scrambled it to make a type specimen book.text ever since the 1500s,
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
+              type and scrambled it to make a type specimen book,text ever since the 1500s,
+              Lorem Ipsum is simply dummy text,specimen book,text ever since the 1500s,
+              Lorem Ipsum is simply dummy text.specimen book,text ever since the 1500s,
+              Lorem Ipsum is simply dummy text.
               </p>
-            <br></br>
-            <a href="/about" className="btn" class="btn btn-primary">Know more</a>
+                <a href="/about" className="btn" class="btn btn-secondary">Know more</a>
               </div>
-            </div>
-          </div>
+            
+            
+          </Jumbotron>
+        </Container>     
     </>
   )
 }

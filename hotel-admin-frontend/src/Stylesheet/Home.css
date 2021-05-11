@@ -1,13 +1,9 @@
-.card{
-    height: 700px;
-    box-sizing: border-box;
-}
+
 
 .card2{
-    width: 500px;
-    height: 2000px;
-    margin-top:50px ;
-    margin-left: 90px;
+    width: 400px;
+    height: 700px;
+    margin-left: 20px;
     border-radius: 20px;
     box-shadow: 0 10px 16px gray;
     box-sizing: border-box;
@@ -28,23 +24,64 @@
     padding: 15px;
     letter-spacing: .3px;
 }
-
 .h1tag{
     font-size: 40px;
     font-weight: bolder;
-    margin-left: 850px;
-    margin-top: -490px;
-    padding: 10px;
+    margin-left: 530px;
+    margin-top: -600px;
     letter-spacing: .3px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .ptag{
-    margin-left: 750px;
+    margin-left: 540px;
     font-family: 'Courier New', Courier, monospace;
-    letter-spacing: .5px;
+    letter-spacing: .3px;
 }
 .btn{
-    margin-left: 1010px;
+    margin-left: 710px;
     width: 150px;
 }
+
+.jumbotron-card
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.jumbotron-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width:770px) {
+    .h1tag{
+        margin-top: 100px;
+        margin-left: 30px;
+        font-size: 34px;
+    }
+    .ptag{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .btn{
+        margin-left: 160px;
+    width: 150px;
+    }
+}
+
+@media screen and (max-width:980px) {
+    .h1tag{
+        margin-top: 100px;
+        margin-left: 30px;
+     
+    }
+    .ptag{
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .btn{
+        margin-left: 160px;
+    width: 150px;
+    }
+}
+
+
 
