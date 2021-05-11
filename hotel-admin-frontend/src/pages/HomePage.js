@@ -1,7 +1,7 @@
 import React from 'react';
 import '../Stylesheet/Home.css';
 import Lorem from '../Images/lorem.png';
-import { Container, Jumbotron, Button } from "react-bootstrap";
+import { Container, Jumbotron } from "react-bootstrap";
 
 export default function HomePage() {
   return (
