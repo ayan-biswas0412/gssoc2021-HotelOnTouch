@@ -1,5 +1,5 @@
 import React from "react";
-import Badge from "react-bootstrap/Badge";
+//import Badge from "react-bootstrap/Badge";
 import { Container, Jumbotron, Button } from "react-bootstrap";
 
 const PageOne = () => {
