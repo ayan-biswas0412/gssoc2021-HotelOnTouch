@@ -30,9 +30,9 @@ function NavbarComponent() {
         <Nav className="mr-auto">
           <NavDropdown title="SignUp/SignIn" id="collasible-nav-dropdown">
             <NavDropdown.Item href="#action/3.1">Register</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Login</NavDropdown.Item>
-            <NavDropdown.Item as={Link} to='/contact'>Contact Us</NavDropdown.Item>         
+            <NavDropdown.Item href="#action/3.2">Login</NavDropdown.Item>        
           </NavDropdown>
+          <Button variant="outline-info" as={Link} to='/contact'>Contact Us</Button>
         </Nav>
         <Form inline>
           <FormControl type="text" placeholder="Search" className="mr-sm-2" />
