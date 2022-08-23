@@ -80,6 +80,7 @@ To make a completely open sourced in house hotel management system
 
 - [Git Documentation](https://git-scm.com/docs)
 - [GitHub Guides](https://guides.github.com/)
+- [React Projects to Build (With Source Code)](https://www.interviewbit.com/blog/react-projects)
 - [How to think in react](https://www.youtube.com/watch?v=YJPSR9dEQV8&t=17s)
 - [React Documentation](https://reactjs.org/docs/getting-started.html)
 - [React Routing Video](https://www.youtube.com/watch?v=Law7wfdg_ls&t=1778s)
@@ -88,6 +89,7 @@ To make a completely open sourced in house hotel management system
 -   [Intermediate React](https://frontendmasters.com/courses/intermediate-react/)
 -   [Introduction to MongoDB](https://frontendmasters.com/courses/mongodb/)
 - [API Design in Node.js (using Express & Mongo)](https://frontendmasters.com/courses/api-design-nodejs/using-the-mongo-with-node/)
+- [React Components](https://www.interviewbit.com/blog/react-components)
 
 ## License
 
